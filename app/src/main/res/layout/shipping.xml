@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/shipTypeText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#66C0CF"
+        android:text="Shipping Type:" />
+
+    <RadioGroup
+        android:id="@+id/shipType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shipTypeText"
+        android:background="#66C0CF"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/shipB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/shipType"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="45dp"
+            android:checked="true"
+            android:text="Basic" />
+
+        <RadioButton
+            android:id="@+id/shipE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/shipB"
+            android:layout_alignBottom="@+id/shipB"
+            android:layout_marginLeft="53dp"
+            android:layout_toRightOf="@+id/shipB"
+            android:text="Express" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shipType"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="45dp"
+        android:text="Weight (kg):" />
+
+    <TextView
+        android:id="@+id/regionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/weightText"
+        android:layout_below="@+id/Weight"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="30dp"
+        android:text="Select Region:" />
+
+    <RadioGroup
+        android:id="@+id/regionSelect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightText"
+        android:layout_below="@+id/regionText" >
+
+        <RadioButton
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Delhi" />
+
+        <RadioButton
+            android:id="@+id/zone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zone(~500km)" />
+
+        <RadioButton
+            android:id="@+id/metro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metro" />
+
+        <RadioButton
+            android:id="@+id/roi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rest Of India" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Weight"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/weightText"
+        android:layout_alignBottom="@+id/weightText"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@+id/weightText"
+        android:ems="10"
+        android:inputType="number|numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/ruralCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regionText"
+        android:layout_below="@+id/regionSelect"
+        android:layout_marginTop="24dp"
+        android:text="Rural Area" />
+
+    <TextView
+        android:id="@+id/shipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="#DDD"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/shipCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Weight"
+        android:layout_below="@+id/Weight"
+        android:layout_marginLeft="21dp"
+        android:text="Calculate" />
+
+</RelativeLayout>
