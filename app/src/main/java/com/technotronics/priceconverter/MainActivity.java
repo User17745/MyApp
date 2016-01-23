@@ -81,24 +81,24 @@ public class MainActivity extends AppCompatActivity {
 		   if(S.matches(""))
 		     {
 			   S = "0";
-		     }
-		   float Shipping = Float.parseFloat(S);
-			
-		 TextView Result = (TextView) findViewById(R.id.result);
-		 
-		 float converted = 0;
-		 
-		 converted = numBase*VAT;
-		 converted += numBase;
-		 converted += Shipping;
-		 converted += Margin;
-		 
-		 Result.setText(Float.toString(converted));
 		}
-		
-		catch(Exception e)
+		float Shipping = Float.parseFloat(S);
+
+		TextView Result = (TextView) findViewById(R.id.result);
+
+		float converted;
+
+		converted = numBase*VAT;
+		converted += numBase;
+		converted += Shipping;
+		converted += Margin;
+
+		Result.setText(Float.toString(converted));
+	}
+
+	catch(Exception e)
 		{
-			Toast.makeText(getApplicationContext(), (CharSequence) e, 2000);
+			Toast.makeText(getApplicationContext(), (CharSequence) e, Toast.LENGTH_SHORT);
 			
 		}
 		}
