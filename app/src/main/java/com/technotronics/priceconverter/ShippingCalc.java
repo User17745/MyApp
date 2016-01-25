@@ -3,6 +3,7 @@ package com.technotronics.priceconverter;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.InputMethodManager;
@@ -15,15 +16,13 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 public class ShippingCalc extends AppCompatActivity{
 
 	Float ShipCost;
 	int BaseRate, AddRate;
-	RadioButton Delhi = (RadioButton) findViewById(R.id.city);
-	RadioButton Zone = (RadioButton) findViewById(R.id.zone);
-	RadioButton Metro = (RadioButton) findViewById(R.id.metro);
-	RadioButton ROI = (RadioButton) findViewById(R.id.roi);
-	CheckBox Rural = (CheckBox) findViewById(R.id.ruralCheck);
+	RadioButton Delhi, Zone, Metro, ROI;
+	CheckBox Rural;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +32,13 @@ public class ShippingCalc extends AppCompatActivity{
 
 		Button ShipRes = (Button) findViewById(R.id.shipCalc);
 		ShipRes.setOnClickListener(Calculater);
+
+		Delhi = (RadioButton) findViewById(R.id.city);
+		Zone = (RadioButton) findViewById(R.id.zone);
+		Metro = (RadioButton) findViewById(R.id.metro);
+		ROI = (RadioButton) findViewById(R.id.roi);
+		Rural = (CheckBox) findViewById(R.id.ruralCheck);
+
 
 	}
 
@@ -48,6 +54,7 @@ public class ShippingCalc extends AppCompatActivity{
             getSystemService(Context.INPUT_METHOD_SERVICE); 
 			//inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),InputMethodManager.HIDE_NOT_ALWAYS);
 			//----KEYBOARD DOWN-------------//
+
 
 			//----PARTS CALCULATION-------------//
 			EditText Weight = (EditText) findViewById(R.id.Weight);
@@ -82,21 +89,23 @@ public class ShippingCalc extends AppCompatActivity{
 					} else if (checkedId == R.id.metro) {
 						BaseRate = 47;
 						AddRate = 42;
-					} else {
+					} else if(checkedId == R.id.roi){
 						BaseRate = 52;
 						AddRate = 47;
+					} else if (checkedId != R.id.city && checkedId != R.id.zone && checkedId != R.id.metro && checkedId != R.id.roi){
+						Toast T = Toast.makeText(getApplicationContext(), "Please Select a Region", Toast.LENGTH_SHORT);
+						T.setGravity(Gravity.CENTER | Gravity.RIGHT, 0, 0);
+						T.show();
 					}
-
 				}
 			});
 			//----REGION SELECTION-------------//
 
 			Float Sum = (float) BaseRate;
-			for(int i = 0 ; i < Parts ; i++)
+			for(int i = 0 ; i < Parts-1 ; i++)
 			{
 				Sum += AddRate;
 			}
-			Sum += 10; //Fuel Charges
 
 			ShipCost = Sum;
 
@@ -105,8 +114,17 @@ public class ShippingCalc extends AppCompatActivity{
 			if(Rural.isChecked())
 				ShipCost += 50;
 
-			Result.setText(ShipCost.toString());
-
+			if(Wei == "0")
+			{
+				Toast T = Toast.makeText(getApplicationContext(), "Please Input Weight", Toast.LENGTH_SHORT);
+				T.setGravity(Gravity.CENTER | Gravity.RIGHT, 0, 0);
+				T.show();
+				Result.setText("");
+			}
+			else {
+				ShipCost += 10; //Fuel Charges
+				Result.setText(ShipCost.toString());
+			}
 		}
 
 

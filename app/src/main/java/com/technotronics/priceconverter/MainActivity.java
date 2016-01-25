@@ -8,6 +8,8 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -17,24 +19,46 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 	//Vibrator vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-	
+	CheckBox EnableShip;
+
+
    @Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		
-		TextView Shipping = (TextView) findViewById(R.id.shipping_text);
-		Shipping.setOnClickListener(ShipCalc);
-		
-		Button Convert = (Button) findViewById(R.id.convert);
-		Convert.setOnClickListener(Converter);
-		
-		ImageView rA = (ImageView) findViewById(R.id.rAView);
-		rA.setOnClickListener(ImageClick);
-		
-		Button List = (Button) findViewById(R.id.list);
-		List.setOnClickListener(PDF);
-	}
+	   super.onCreate(savedInstanceState);
+	   setContentView(R.layout.activity_main);
+
+	   TextView Shipping = (TextView) findViewById(R.id.shipping_text);
+	   Shipping.setOnClickListener(ShipCalc);
+
+	   Button Convert = (Button) findViewById(R.id.convert);
+	   Convert.setOnClickListener(Converter);
+
+	   ImageView rA = (ImageView) findViewById(R.id.rAView);
+	   rA.setOnClickListener(ImageClick);
+
+	   Button List = (Button) findViewById(R.id.list);
+	   List.setOnClickListener(PDF);
+
+	   EnableShip = (CheckBox) findViewById(R.id.enableShip);
+	   EnableShip.setOnCheckedChangeListener(tick);
+
+
+   }
+
+	private CompoundButton.OnCheckedChangeListener tick = new CompoundButton.OnCheckedChangeListener() {
+		@Override
+		public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+			EditText shipping = (EditText) findViewById(R.id.shipping);
+
+			if(!EnableShip.isChecked())
+				shipping.setEnabled(false);
+			else
+				shipping.setEnabled(true);
+
+		}
+	};
+
 	private OnClickListener ShipCalc = new OnClickListener()
 	{
 		public void onClick(View v)
@@ -74,8 +98,7 @@ public class MainActivity extends AppCompatActivity {
 			   M = "0";
 		     }
 		  float Margin = Float.parseFloat(M);
-		  
-		  
+
 		 EditText shipping = (EditText) findViewById(R.id.shipping);
 		  String S = shipping.getText().toString();
 		   if(S.matches(""))
@@ -90,8 +113,9 @@ public class MainActivity extends AppCompatActivity {
 
 		converted = numBase*VAT;
 		converted += numBase;
-		converted += Shipping;
 		converted += Margin;
+		if(shipping.isEnabled() == true)
+			converted += Shipping;
 
 		Result.setText(Float.toString(converted));
 	}

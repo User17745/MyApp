@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="#66C0CF"
+        android:background="#44C0FF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Shipping Type:" />
 
     <RadioGroup
@@ -18,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/shipTypeText"
-        android:background="#66C0CF"
+        android:background="#66C0FF"
         android:orientation="horizontal" >
 
         <RadioButton
@@ -73,7 +74,6 @@
             android:id="@+id/city"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:text="Delhi" />
 
         <RadioButton
@@ -122,11 +122,11 @@
         android:id="@+id/shipping"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="28dp"
         android:background="#DDD"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignBottom="@+id/ruralCheck"
+        android:layout_alignRight="@+id/shipCalc"
+        android:layout_alignEnd="@+id/shipCalc" />
 
     <Button
         android:id="@+id/shipCalc"
