@@ -45,6 +45,18 @@ public class MainActivity extends AppCompatActivity {
 
    }
 
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+		EditText shipping = (EditText) findViewById(R.id.shipping);
+
+		if (requestCode == 1) {
+			if(resultCode == RESULT_OK) {
+				String PassResult = data.getStringExtra("Shipping_Charge");
+				shipping.setText(PassResult);
+			}
+		}
+	}
+
 	private CompoundButton.OnCheckedChangeListener tick = new CompoundButton.OnCheckedChangeListener() {
 		@Override
 		public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -59,12 +71,13 @@ public class MainActivity extends AppCompatActivity {
 		}
 	};
 
+
 	private OnClickListener ShipCalc = new OnClickListener()
 	{
 		public void onClick(View v)
 		{
 			Intent i = new Intent(getApplicationContext(), ShippingCalc.class);
-			startActivity(i);
+			startActivityForResult(i,1);
 		}
 	};
 	private OnClickListener Converter = new OnClickListener()

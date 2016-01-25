@@ -1,6 +1,7 @@
 package com.technotronics.priceconverter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
@@ -19,7 +20,7 @@ import android.widget.Toast;
 
 public class ShippingCalc extends AppCompatActivity{
 
-	Float ShipCost;
+	Float ShipCost = (float) 0;
 	int BaseRate, AddRate;
 	RadioButton Delhi, Zone, Metro, ROI;
 	CheckBox Rural;
@@ -129,4 +130,12 @@ public class ShippingCalc extends AppCompatActivity{
 
 
 	};
+
+	@Override
+	public void onBackPressed() {
+		Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+		intent.putExtra("Shipping_Charge",Float.toString(ShipCost));
+		setResult(RESULT_OK, intent);
+		startActivity(intent);
+	}
 }
