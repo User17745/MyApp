@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
@@ -89,3 +89,7 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:58:5-66
 	android:name
 		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:58:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:59:5-79
+	android:name
+		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:59:22-76

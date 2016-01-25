@@ -20,12 +20,12 @@
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\errorweb.xml",
+        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\src\\main\\res\\layout\\errorweb.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
