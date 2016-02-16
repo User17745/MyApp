@@ -9,16 +9,16 @@ package com.technotronics.priceconverter;
 
 public final class R {
     public static final class anim {
-        public static final int abc_fade_in=0x7f050000;
-        public static final int abc_fade_out=0x7f050001;
-        public static final int abc_grow_fade_in_from_bottom=0x7f050002;
-        public static final int abc_popup_enter=0x7f050003;
-        public static final int abc_popup_exit=0x7f050004;
-        public static final int abc_shrink_fade_out_from_bottom=0x7f050005;
-        public static final int abc_slide_in_bottom=0x7f050006;
-        public static final int abc_slide_in_top=0x7f050007;
-        public static final int abc_slide_out_bottom=0x7f050008;
-        public static final int abc_slide_out_top=0x7f050009;
+        public static final int abc_fade_in=0x7f040000;
+        public static final int abc_fade_out=0x7f040001;
+        public static final int abc_grow_fade_in_from_bottom=0x7f040002;
+        public static final int abc_popup_enter=0x7f040003;
+        public static final int abc_popup_exit=0x7f040004;
+        public static final int abc_shrink_fade_out_from_bottom=0x7f040005;
+        public static final int abc_slide_in_bottom=0x7f040006;
+        public static final int abc_slide_in_top=0x7f040007;
+        public static final int abc_slide_out_bottom=0x7f040008;
+        public static final int abc_slide_out_top=0x7f040009;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1360,166 +1360,166 @@ containing a value of this type.
         public static final int windowNoTitle=0x7f01004f;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f070003;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f070001;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f070004;
-        public static final int abc_allow_stacked_button_bar=0x7f070000;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f070005;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f070002;
-        public static final int abc_config_closeDialogWhenTouchOutside=0x7f070006;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f070007;
+        public static final int abc_action_bar_embed_tabs=0x7f060003;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f060001;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f060004;
+        public static final int abc_allow_stacked_button_bar=0x7f060000;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f060005;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f060002;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f060006;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060007;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0b003b;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0b003c;
-        public static final int abc_color_highlight_material=0x7f0b003d;
-        public static final int abc_input_method_navigation_guard=0x7f0b0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0b003e;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0b003f;
-        public static final int abc_primary_text_material_dark=0x7f0b0040;
-        public static final int abc_primary_text_material_light=0x7f0b0041;
-        public static final int abc_search_url_text=0x7f0b0042;
-        public static final int abc_search_url_text_normal=0x7f0b0001;
-        public static final int abc_search_url_text_pressed=0x7f0b0002;
-        public static final int abc_search_url_text_selected=0x7f0b0003;
-        public static final int abc_secondary_text_material_dark=0x7f0b0043;
-        public static final int abc_secondary_text_material_light=0x7f0b0044;
-        public static final int accent_material_dark=0x7f0b0004;
-        public static final int accent_material_light=0x7f0b0005;
-        public static final int background_floating_material_dark=0x7f0b0006;
-        public static final int background_floating_material_light=0x7f0b0007;
-        public static final int background_material_dark=0x7f0b0008;
-        public static final int background_material_light=0x7f0b0009;
-        public static final int blue=0x7f0b000a;
-        public static final int bright_foreground_disabled_material_dark=0x7f0b000b;
-        public static final int bright_foreground_disabled_material_light=0x7f0b000c;
-        public static final int bright_foreground_inverse_material_dark=0x7f0b000d;
-        public static final int bright_foreground_inverse_material_light=0x7f0b000e;
-        public static final int bright_foreground_material_dark=0x7f0b000f;
-        public static final int bright_foreground_material_light=0x7f0b0010;
-        public static final int button_material_dark=0x7f0b0011;
-        public static final int button_material_light=0x7f0b0012;
-        public static final int dim_foreground_disabled_material_dark=0x7f0b0013;
-        public static final int dim_foreground_disabled_material_light=0x7f0b0014;
-        public static final int dim_foreground_material_dark=0x7f0b0015;
-        public static final int dim_foreground_material_light=0x7f0b0016;
-        public static final int foreground_material_dark=0x7f0b0017;
-        public static final int foreground_material_light=0x7f0b0018;
-        public static final int highlighted_text_material_dark=0x7f0b0019;
-        public static final int highlighted_text_material_light=0x7f0b001a;
-        public static final int hint_foreground_material_dark=0x7f0b001b;
-        public static final int hint_foreground_material_light=0x7f0b001c;
-        public static final int material_blue_grey_800=0x7f0b001d;
-        public static final int material_blue_grey_900=0x7f0b001e;
-        public static final int material_blue_grey_950=0x7f0b001f;
-        public static final int material_deep_teal_200=0x7f0b0020;
-        public static final int material_deep_teal_500=0x7f0b0021;
-        public static final int material_grey_100=0x7f0b0022;
-        public static final int material_grey_300=0x7f0b0023;
-        public static final int material_grey_50=0x7f0b0024;
-        public static final int material_grey_600=0x7f0b0025;
-        public static final int material_grey_800=0x7f0b0026;
-        public static final int material_grey_850=0x7f0b0027;
-        public static final int material_grey_900=0x7f0b0028;
-        public static final int primary_dark_material_dark=0x7f0b0029;
-        public static final int primary_dark_material_light=0x7f0b002a;
-        public static final int primary_material_dark=0x7f0b002b;
-        public static final int primary_material_light=0x7f0b002c;
-        public static final int primary_text_default_material_dark=0x7f0b002d;
-        public static final int primary_text_default_material_light=0x7f0b002e;
-        public static final int primary_text_disabled_material_dark=0x7f0b002f;
-        public static final int primary_text_disabled_material_light=0x7f0b0030;
-        public static final int ripple_material_dark=0x7f0b0031;
-        public static final int ripple_material_light=0x7f0b0032;
-        public static final int secondary_text_default_material_dark=0x7f0b0033;
-        public static final int secondary_text_default_material_light=0x7f0b0034;
-        public static final int secondary_text_disabled_material_dark=0x7f0b0035;
-        public static final int secondary_text_disabled_material_light=0x7f0b0036;
-        public static final int switch_thumb_disabled_material_dark=0x7f0b0037;
-        public static final int switch_thumb_disabled_material_light=0x7f0b0038;
-        public static final int switch_thumb_material_dark=0x7f0b0045;
-        public static final int switch_thumb_material_light=0x7f0b0046;
-        public static final int switch_thumb_normal_material_dark=0x7f0b0039;
-        public static final int switch_thumb_normal_material_light=0x7f0b003a;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a003b;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a003c;
+        public static final int abc_color_highlight_material=0x7f0a003d;
+        public static final int abc_input_method_navigation_guard=0x7f0a0000;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a003e;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a003f;
+        public static final int abc_primary_text_material_dark=0x7f0a0040;
+        public static final int abc_primary_text_material_light=0x7f0a0041;
+        public static final int abc_search_url_text=0x7f0a0042;
+        public static final int abc_search_url_text_normal=0x7f0a0001;
+        public static final int abc_search_url_text_pressed=0x7f0a0002;
+        public static final int abc_search_url_text_selected=0x7f0a0003;
+        public static final int abc_secondary_text_material_dark=0x7f0a0043;
+        public static final int abc_secondary_text_material_light=0x7f0a0044;
+        public static final int accent_material_dark=0x7f0a0004;
+        public static final int accent_material_light=0x7f0a0005;
+        public static final int background_floating_material_dark=0x7f0a0006;
+        public static final int background_floating_material_light=0x7f0a0007;
+        public static final int background_material_dark=0x7f0a0008;
+        public static final int background_material_light=0x7f0a0009;
+        public static final int blue=0x7f0a000a;
+        public static final int bright_foreground_disabled_material_dark=0x7f0a000b;
+        public static final int bright_foreground_disabled_material_light=0x7f0a000c;
+        public static final int bright_foreground_inverse_material_dark=0x7f0a000d;
+        public static final int bright_foreground_inverse_material_light=0x7f0a000e;
+        public static final int bright_foreground_material_dark=0x7f0a000f;
+        public static final int bright_foreground_material_light=0x7f0a0010;
+        public static final int button_material_dark=0x7f0a0011;
+        public static final int button_material_light=0x7f0a0012;
+        public static final int dim_foreground_disabled_material_dark=0x7f0a0013;
+        public static final int dim_foreground_disabled_material_light=0x7f0a0014;
+        public static final int dim_foreground_material_dark=0x7f0a0015;
+        public static final int dim_foreground_material_light=0x7f0a0016;
+        public static final int foreground_material_dark=0x7f0a0017;
+        public static final int foreground_material_light=0x7f0a0018;
+        public static final int highlighted_text_material_dark=0x7f0a0019;
+        public static final int highlighted_text_material_light=0x7f0a001a;
+        public static final int hint_foreground_material_dark=0x7f0a001b;
+        public static final int hint_foreground_material_light=0x7f0a001c;
+        public static final int material_blue_grey_800=0x7f0a001d;
+        public static final int material_blue_grey_900=0x7f0a001e;
+        public static final int material_blue_grey_950=0x7f0a001f;
+        public static final int material_deep_teal_200=0x7f0a0020;
+        public static final int material_deep_teal_500=0x7f0a0021;
+        public static final int material_grey_100=0x7f0a0022;
+        public static final int material_grey_300=0x7f0a0023;
+        public static final int material_grey_50=0x7f0a0024;
+        public static final int material_grey_600=0x7f0a0025;
+        public static final int material_grey_800=0x7f0a0026;
+        public static final int material_grey_850=0x7f0a0027;
+        public static final int material_grey_900=0x7f0a0028;
+        public static final int primary_dark_material_dark=0x7f0a0029;
+        public static final int primary_dark_material_light=0x7f0a002a;
+        public static final int primary_material_dark=0x7f0a002b;
+        public static final int primary_material_light=0x7f0a002c;
+        public static final int primary_text_default_material_dark=0x7f0a002d;
+        public static final int primary_text_default_material_light=0x7f0a002e;
+        public static final int primary_text_disabled_material_dark=0x7f0a002f;
+        public static final int primary_text_disabled_material_light=0x7f0a0030;
+        public static final int ripple_material_dark=0x7f0a0031;
+        public static final int ripple_material_light=0x7f0a0032;
+        public static final int secondary_text_default_material_dark=0x7f0a0033;
+        public static final int secondary_text_default_material_light=0x7f0a0034;
+        public static final int secondary_text_disabled_material_dark=0x7f0a0035;
+        public static final int secondary_text_disabled_material_light=0x7f0a0036;
+        public static final int switch_thumb_disabled_material_dark=0x7f0a0037;
+        public static final int switch_thumb_disabled_material_light=0x7f0a0038;
+        public static final int switch_thumb_material_dark=0x7f0a0045;
+        public static final int switch_thumb_material_light=0x7f0a0046;
+        public static final int switch_thumb_normal_material_dark=0x7f0a0039;
+        public static final int switch_thumb_normal_material_light=0x7f0a003a;
     }
     public static final class dimen {
-        public static final int abc_action_bar_content_inset_material=0x7f08000d;
-        public static final int abc_action_bar_default_height_material=0x7f080001;
-        public static final int abc_action_bar_default_padding_end_material=0x7f08000e;
-        public static final int abc_action_bar_default_padding_start_material=0x7f08000f;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f080012;
-        public static final int abc_action_bar_overflow_padding_end_material=0x7f080013;
-        public static final int abc_action_bar_overflow_padding_start_material=0x7f080014;
-        public static final int abc_action_bar_progress_bar_size=0x7f080002;
-        public static final int abc_action_bar_stacked_max_height=0x7f080015;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f080016;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f080017;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f080018;
-        public static final int abc_action_button_min_height_material=0x7f080019;
-        public static final int abc_action_button_min_width_material=0x7f08001a;
-        public static final int abc_action_button_min_width_overflow_material=0x7f08001b;
-        public static final int abc_alert_dialog_button_bar_height=0x7f080000;
-        public static final int abc_button_inset_horizontal_material=0x7f08001c;
-        public static final int abc_button_inset_vertical_material=0x7f08001d;
-        public static final int abc_button_padding_horizontal_material=0x7f08001e;
-        public static final int abc_button_padding_vertical_material=0x7f08001f;
-        public static final int abc_config_prefDialogWidth=0x7f080005;
-        public static final int abc_control_corner_material=0x7f080020;
-        public static final int abc_control_inset_material=0x7f080021;
-        public static final int abc_control_padding_material=0x7f080022;
-        public static final int abc_dialog_fixed_height_major=0x7f080006;
-        public static final int abc_dialog_fixed_height_minor=0x7f080007;
-        public static final int abc_dialog_fixed_width_major=0x7f080008;
-        public static final int abc_dialog_fixed_width_minor=0x7f080009;
-        public static final int abc_dialog_list_padding_vertical_material=0x7f080023;
-        public static final int abc_dialog_min_width_major=0x7f08000a;
-        public static final int abc_dialog_min_width_minor=0x7f08000b;
-        public static final int abc_dialog_padding_material=0x7f080024;
-        public static final int abc_dialog_padding_top_material=0x7f080025;
-        public static final int abc_disabled_alpha_material_dark=0x7f080026;
-        public static final int abc_disabled_alpha_material_light=0x7f080027;
-        public static final int abc_dropdownitem_icon_width=0x7f080028;
-        public static final int abc_dropdownitem_text_padding_left=0x7f080029;
-        public static final int abc_dropdownitem_text_padding_right=0x7f08002a;
-        public static final int abc_edit_text_inset_bottom_material=0x7f08002b;
-        public static final int abc_edit_text_inset_horizontal_material=0x7f08002c;
-        public static final int abc_edit_text_inset_top_material=0x7f08002d;
-        public static final int abc_floating_window_z=0x7f08002e;
-        public static final int abc_list_item_padding_horizontal_material=0x7f08002f;
-        public static final int abc_panel_menu_list_width=0x7f080030;
-        public static final int abc_search_view_preferred_width=0x7f080031;
-        public static final int abc_search_view_text_min_width=0x7f08000c;
-        public static final int abc_seekbar_track_background_height_material=0x7f080032;
-        public static final int abc_seekbar_track_progress_height_material=0x7f080033;
-        public static final int abc_select_dialog_padding_start_material=0x7f080034;
-        public static final int abc_switch_padding=0x7f080010;
-        public static final int abc_text_size_body_1_material=0x7f080035;
-        public static final int abc_text_size_body_2_material=0x7f080036;
-        public static final int abc_text_size_button_material=0x7f080037;
-        public static final int abc_text_size_caption_material=0x7f080038;
-        public static final int abc_text_size_display_1_material=0x7f080039;
-        public static final int abc_text_size_display_2_material=0x7f08003a;
-        public static final int abc_text_size_display_3_material=0x7f08003b;
-        public static final int abc_text_size_display_4_material=0x7f08003c;
-        public static final int abc_text_size_headline_material=0x7f08003d;
-        public static final int abc_text_size_large_material=0x7f08003e;
-        public static final int abc_text_size_medium_material=0x7f08003f;
-        public static final int abc_text_size_menu_material=0x7f080040;
-        public static final int abc_text_size_small_material=0x7f080041;
-        public static final int abc_text_size_subhead_material=0x7f080042;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f080003;
-        public static final int abc_text_size_title_material=0x7f080043;
-        public static final int abc_text_size_title_material_toolbar=0x7f080004;
-        public static final int activity_horizontal_margin=0x7f080011;
-        public static final int activity_vertical_margin=0x7f080044;
-        public static final int disabled_alpha_material_dark=0x7f080045;
-        public static final int disabled_alpha_material_light=0x7f080046;
-        public static final int highlight_alpha_material_colored=0x7f080047;
-        public static final int highlight_alpha_material_dark=0x7f080048;
-        public static final int highlight_alpha_material_light=0x7f080049;
-        public static final int notification_large_icon_height=0x7f08004a;
-        public static final int notification_large_icon_width=0x7f08004b;
-        public static final int notification_subtext_size=0x7f08004c;
+        public static final int abc_action_bar_content_inset_material=0x7f07000d;
+        public static final int abc_action_bar_default_height_material=0x7f070001;
+        public static final int abc_action_bar_default_padding_end_material=0x7f07000e;
+        public static final int abc_action_bar_default_padding_start_material=0x7f07000f;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f070012;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f070013;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f070014;
+        public static final int abc_action_bar_progress_bar_size=0x7f070002;
+        public static final int abc_action_bar_stacked_max_height=0x7f070015;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f070016;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f070017;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f070018;
+        public static final int abc_action_button_min_height_material=0x7f070019;
+        public static final int abc_action_button_min_width_material=0x7f07001a;
+        public static final int abc_action_button_min_width_overflow_material=0x7f07001b;
+        public static final int abc_alert_dialog_button_bar_height=0x7f070000;
+        public static final int abc_button_inset_horizontal_material=0x7f07001c;
+        public static final int abc_button_inset_vertical_material=0x7f07001d;
+        public static final int abc_button_padding_horizontal_material=0x7f07001e;
+        public static final int abc_button_padding_vertical_material=0x7f07001f;
+        public static final int abc_config_prefDialogWidth=0x7f070005;
+        public static final int abc_control_corner_material=0x7f070020;
+        public static final int abc_control_inset_material=0x7f070021;
+        public static final int abc_control_padding_material=0x7f070022;
+        public static final int abc_dialog_fixed_height_major=0x7f070006;
+        public static final int abc_dialog_fixed_height_minor=0x7f070007;
+        public static final int abc_dialog_fixed_width_major=0x7f070008;
+        public static final int abc_dialog_fixed_width_minor=0x7f070009;
+        public static final int abc_dialog_list_padding_vertical_material=0x7f070023;
+        public static final int abc_dialog_min_width_major=0x7f07000a;
+        public static final int abc_dialog_min_width_minor=0x7f07000b;
+        public static final int abc_dialog_padding_material=0x7f070024;
+        public static final int abc_dialog_padding_top_material=0x7f070025;
+        public static final int abc_disabled_alpha_material_dark=0x7f070026;
+        public static final int abc_disabled_alpha_material_light=0x7f070027;
+        public static final int abc_dropdownitem_icon_width=0x7f070028;
+        public static final int abc_dropdownitem_text_padding_left=0x7f070029;
+        public static final int abc_dropdownitem_text_padding_right=0x7f07002a;
+        public static final int abc_edit_text_inset_bottom_material=0x7f07002b;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f07002c;
+        public static final int abc_edit_text_inset_top_material=0x7f07002d;
+        public static final int abc_floating_window_z=0x7f07002e;
+        public static final int abc_list_item_padding_horizontal_material=0x7f07002f;
+        public static final int abc_panel_menu_list_width=0x7f070030;
+        public static final int abc_search_view_preferred_width=0x7f070031;
+        public static final int abc_search_view_text_min_width=0x7f07000c;
+        public static final int abc_seekbar_track_background_height_material=0x7f070032;
+        public static final int abc_seekbar_track_progress_height_material=0x7f070033;
+        public static final int abc_select_dialog_padding_start_material=0x7f070034;
+        public static final int abc_switch_padding=0x7f070010;
+        public static final int abc_text_size_body_1_material=0x7f070035;
+        public static final int abc_text_size_body_2_material=0x7f070036;
+        public static final int abc_text_size_button_material=0x7f070037;
+        public static final int abc_text_size_caption_material=0x7f070038;
+        public static final int abc_text_size_display_1_material=0x7f070039;
+        public static final int abc_text_size_display_2_material=0x7f07003a;
+        public static final int abc_text_size_display_3_material=0x7f07003b;
+        public static final int abc_text_size_display_4_material=0x7f07003c;
+        public static final int abc_text_size_headline_material=0x7f07003d;
+        public static final int abc_text_size_large_material=0x7f07003e;
+        public static final int abc_text_size_medium_material=0x7f07003f;
+        public static final int abc_text_size_menu_material=0x7f070040;
+        public static final int abc_text_size_small_material=0x7f070041;
+        public static final int abc_text_size_subhead_material=0x7f070042;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f070003;
+        public static final int abc_text_size_title_material=0x7f070043;
+        public static final int abc_text_size_title_material_toolbar=0x7f070004;
+        public static final int activity_horizontal_margin=0x7f070011;
+        public static final int activity_vertical_margin=0x7f070044;
+        public static final int disabled_alpha_material_dark=0x7f070045;
+        public static final int disabled_alpha_material_light=0x7f070046;
+        public static final int highlight_alpha_material_colored=0x7f070047;
+        public static final int highlight_alpha_material_dark=0x7f070048;
+        public static final int highlight_alpha_material_light=0x7f070049;
+        public static final int notification_large_icon_height=0x7f07004a;
+        public static final int notification_large_icon_width=0x7f07004b;
+        public static final int notification_subtext_size=0x7f07004c;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -1591,230 +1591,225 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020043;
         public static final int abc_textfield_search_material=0x7f020044;
-        public static final int appicon=0x7f020045;
-        public static final int chain=0x7f020046;
-        public static final int load=0x7f020047;
-        public static final int logo=0x7f020048;
-        public static final int notification_template_icon_bg=0x7f02004a;
-        public static final int tl=0x7f020049;
+        public static final int chain=0x7f020045;
+        public static final int logo=0x7f020046;
+        public static final int notification_template_icon_bg=0x7f020048;
+        public static final int tl=0x7f020047;
     }
     public static final class id {
-        public static final int Prod_text1=0x7f0c005e;
-        public static final int Prod_text2=0x7f0c005f;
-        public static final int Weight=0x7f0c0077;
-        public static final int action0=0x7f0c0064;
-        public static final int action_bar=0x7f0c0041;
-        public static final int action_bar_activity_content=0x7f0c0000;
-        public static final int action_bar_container=0x7f0c0040;
-        public static final int action_bar_root=0x7f0c003c;
-        public static final int action_bar_spinner=0x7f0c0001;
-        public static final int action_bar_subtitle=0x7f0c0022;
-        public static final int action_bar_title=0x7f0c0021;
-        public static final int action_context_bar=0x7f0c0042;
-        public static final int action_divider=0x7f0c0068;
-        public static final int action_menu_divider=0x7f0c0002;
-        public static final int action_menu_presenter=0x7f0c0003;
-        public static final int action_mode_bar=0x7f0c003e;
-        public static final int action_mode_bar_stub=0x7f0c003d;
-        public static final int action_mode_close_button=0x7f0c0023;
-        public static final int action_settings=0x7f0c007f;
-        public static final int activity_chooser_view_content=0x7f0c0024;
-        public static final int alertTitle=0x7f0c0030;
-        public static final int always=0x7f0c001b;
-        public static final int base=0x7f0c0050;
-        public static final int beginning=0x7f0c0018;
-        public static final int buttonPanel=0x7f0c002b;
-        public static final int cancel_action=0x7f0c0065;
-        public static final int checkbox=0x7f0c0039;
-        public static final int chronometer=0x7f0c006b;
-        public static final int city=0x7f0c0079;
-        public static final int collapseActionView=0x7f0c001c;
-        public static final int contentPanel=0x7f0c0031;
-        public static final int convert=0x7f0c0057;
-        public static final int custom=0x7f0c0037;
-        public static final int customPanel=0x7f0c0036;
-        public static final int decor_content_parent=0x7f0c003f;
-        public static final int default_activity_button=0x7f0c0027;
-        public static final int disableHome=0x7f0c000c;
-        public static final int edit_query=0x7f0c0043;
-        public static final int enableShip=0x7f0c005c;
-        public static final int end=0x7f0c0019;
-        public static final int end_padder=0x7f0c0070;
-        public static final int expand_activities_button=0x7f0c0025;
-        public static final int expanded_menu=0x7f0c0038;
-        public static final int home=0x7f0c0004;
-        public static final int homeAsUp=0x7f0c000d;
-        public static final int icon=0x7f0c0029;
-        public static final int ifRoom=0x7f0c001d;
-        public static final int image=0x7f0c0026;
-        public static final int imageView=0x7f0c0061;
-        public static final int info=0x7f0c006f;
-        public static final int line1=0x7f0c0069;
-        public static final int line3=0x7f0c006d;
-        public static final int list=0x7f0c005b;
-        public static final int list2=0x7f0c005d;
-        public static final int listMode=0x7f0c0009;
-        public static final int list_item=0x7f0c0028;
-        public static final int login=0x7f0c0063;
-        public static final int margin=0x7f0c0052;
-        public static final int margin_Text=0x7f0c0059;
-        public static final int media_actions=0x7f0c0067;
-        public static final int metro=0x7f0c007b;
-        public static final int middle=0x7f0c001a;
-        public static final int multiply=0x7f0c0013;
-        public static final int never=0x7f0c001e;
-        public static final int none=0x7f0c000e;
-        public static final int normal=0x7f0c000a;
-        public static final int parentPanel=0x7f0c002d;
-        public static final int pass=0x7f0c0062;
-        public static final int progress_circular=0x7f0c0005;
-        public static final int progress_horizontal=0x7f0c0006;
-        public static final int rAView=0x7f0c005a;
-        public static final int radio=0x7f0c003b;
-        public static final int regionSelect=0x7f0c0078;
-        public static final int regionText=0x7f0c0076;
-        public static final int result=0x7f0c0058;
-        public static final int roi=0x7f0c007c;
-        public static final int ruralCheck=0x7f0c007d;
-        public static final int screen=0x7f0c0014;
-        public static final int scrollIndicatorDown=0x7f0c0035;
-        public static final int scrollIndicatorUp=0x7f0c0032;
-        public static final int scrollView=0x7f0c0033;
-        public static final int search_badge=0x7f0c0045;
-        public static final int search_bar=0x7f0c0044;
-        public static final int search_button=0x7f0c0046;
-        public static final int search_close_btn=0x7f0c004b;
-        public static final int search_edit_frame=0x7f0c0047;
-        public static final int search_go_btn=0x7f0c004d;
-        public static final int search_mag_icon=0x7f0c0048;
-        public static final int search_plate=0x7f0c0049;
-        public static final int search_src_text=0x7f0c004a;
-        public static final int search_voice_btn=0x7f0c004e;
-        public static final int select_dialog_listview=0x7f0c004f;
-        public static final int shipB=0x7f0c0073;
-        public static final int shipCalc=0x7f0c007e;
-        public static final int shipE=0x7f0c0074;
-        public static final int shipType=0x7f0c0072;
-        public static final int shipTypeText=0x7f0c0071;
-        public static final int shipping=0x7f0c0051;
-        public static final int shipping_text=0x7f0c0055;
-        public static final int shortcut=0x7f0c003a;
-        public static final int showCustom=0x7f0c000f;
-        public static final int showHome=0x7f0c0010;
-        public static final int showTitle=0x7f0c0011;
-        public static final int spacer=0x7f0c002c;
-        public static final int split_action_bar=0x7f0c0007;
-        public static final int src_atop=0x7f0c0015;
-        public static final int src_in=0x7f0c0016;
-        public static final int src_over=0x7f0c0017;
-        public static final int status_bar_latest_event_content=0x7f0c0066;
-        public static final int submit_area=0x7f0c004c;
-        public static final int tabMode=0x7f0c000b;
-        public static final int text=0x7f0c006e;
-        public static final int text2=0x7f0c006c;
-        public static final int textSpacerNoButtons=0x7f0c0034;
-        public static final int textView=0x7f0c0060;
-        public static final int textView1=0x7f0c0056;
-        public static final int time=0x7f0c006a;
-        public static final int title=0x7f0c002a;
-        public static final int title_template=0x7f0c002f;
-        public static final int topPanel=0x7f0c002e;
-        public static final int up=0x7f0c0008;
-        public static final int useLogo=0x7f0c0012;
-        public static final int vat=0x7f0c0054;
-        public static final int vat_text=0x7f0c0053;
-        public static final int weightText=0x7f0c0075;
-        public static final int withText=0x7f0c001f;
-        public static final int wrap_content=0x7f0c0020;
-        public static final int zone=0x7f0c007a;
+        public static final int Prod_text1=0x7f0b005e;
+        public static final int Prod_text2=0x7f0b005f;
+        public static final int Weight=0x7f0b0077;
+        public static final int action0=0x7f0b0064;
+        public static final int action_bar=0x7f0b0041;
+        public static final int action_bar_activity_content=0x7f0b0000;
+        public static final int action_bar_container=0x7f0b0040;
+        public static final int action_bar_root=0x7f0b003c;
+        public static final int action_bar_spinner=0x7f0b0001;
+        public static final int action_bar_subtitle=0x7f0b0022;
+        public static final int action_bar_title=0x7f0b0021;
+        public static final int action_context_bar=0x7f0b0042;
+        public static final int action_divider=0x7f0b0068;
+        public static final int action_menu_divider=0x7f0b0002;
+        public static final int action_menu_presenter=0x7f0b0003;
+        public static final int action_mode_bar=0x7f0b003e;
+        public static final int action_mode_bar_stub=0x7f0b003d;
+        public static final int action_mode_close_button=0x7f0b0023;
+        public static final int action_settings=0x7f0b007f;
+        public static final int activity_chooser_view_content=0x7f0b0024;
+        public static final int alertTitle=0x7f0b0030;
+        public static final int always=0x7f0b001b;
+        public static final int base=0x7f0b0050;
+        public static final int beginning=0x7f0b0018;
+        public static final int buttonPanel=0x7f0b002b;
+        public static final int cancel_action=0x7f0b0065;
+        public static final int checkbox=0x7f0b0039;
+        public static final int chronometer=0x7f0b006b;
+        public static final int city=0x7f0b0079;
+        public static final int collapseActionView=0x7f0b001c;
+        public static final int contentPanel=0x7f0b0031;
+        public static final int convert=0x7f0b0057;
+        public static final int custom=0x7f0b0037;
+        public static final int customPanel=0x7f0b0036;
+        public static final int decor_content_parent=0x7f0b003f;
+        public static final int default_activity_button=0x7f0b0027;
+        public static final int disableHome=0x7f0b000c;
+        public static final int edit_query=0x7f0b0043;
+        public static final int enableShip=0x7f0b005c;
+        public static final int end=0x7f0b0019;
+        public static final int end_padder=0x7f0b0070;
+        public static final int expand_activities_button=0x7f0b0025;
+        public static final int expanded_menu=0x7f0b0038;
+        public static final int home=0x7f0b0004;
+        public static final int homeAsUp=0x7f0b000d;
+        public static final int icon=0x7f0b0029;
+        public static final int ifRoom=0x7f0b001d;
+        public static final int image=0x7f0b0026;
+        public static final int imageView=0x7f0b0061;
+        public static final int info=0x7f0b006f;
+        public static final int line1=0x7f0b0069;
+        public static final int line3=0x7f0b006d;
+        public static final int list=0x7f0b005b;
+        public static final int list2=0x7f0b005d;
+        public static final int listMode=0x7f0b0009;
+        public static final int list_item=0x7f0b0028;
+        public static final int login=0x7f0b0063;
+        public static final int margin=0x7f0b0052;
+        public static final int margin_Text=0x7f0b0059;
+        public static final int media_actions=0x7f0b0067;
+        public static final int metro=0x7f0b007b;
+        public static final int middle=0x7f0b001a;
+        public static final int multiply=0x7f0b0013;
+        public static final int never=0x7f0b001e;
+        public static final int none=0x7f0b000e;
+        public static final int normal=0x7f0b000a;
+        public static final int parentPanel=0x7f0b002d;
+        public static final int pass=0x7f0b0062;
+        public static final int progress_circular=0x7f0b0005;
+        public static final int progress_horizontal=0x7f0b0006;
+        public static final int rAView=0x7f0b005a;
+        public static final int radio=0x7f0b003b;
+        public static final int regionSelect=0x7f0b0078;
+        public static final int regionText=0x7f0b0076;
+        public static final int result=0x7f0b0058;
+        public static final int roi=0x7f0b007c;
+        public static final int ruralCheck=0x7f0b007d;
+        public static final int screen=0x7f0b0014;
+        public static final int scrollIndicatorDown=0x7f0b0035;
+        public static final int scrollIndicatorUp=0x7f0b0032;
+        public static final int scrollView=0x7f0b0033;
+        public static final int search_badge=0x7f0b0045;
+        public static final int search_bar=0x7f0b0044;
+        public static final int search_button=0x7f0b0046;
+        public static final int search_close_btn=0x7f0b004b;
+        public static final int search_edit_frame=0x7f0b0047;
+        public static final int search_go_btn=0x7f0b004d;
+        public static final int search_mag_icon=0x7f0b0048;
+        public static final int search_plate=0x7f0b0049;
+        public static final int search_src_text=0x7f0b004a;
+        public static final int search_voice_btn=0x7f0b004e;
+        public static final int select_dialog_listview=0x7f0b004f;
+        public static final int shipB=0x7f0b0073;
+        public static final int shipCalc=0x7f0b007e;
+        public static final int shipE=0x7f0b0074;
+        public static final int shipType=0x7f0b0072;
+        public static final int shipTypeText=0x7f0b0071;
+        public static final int shipping=0x7f0b0051;
+        public static final int shipping_text=0x7f0b0055;
+        public static final int shortcut=0x7f0b003a;
+        public static final int showCustom=0x7f0b000f;
+        public static final int showHome=0x7f0b0010;
+        public static final int showTitle=0x7f0b0011;
+        public static final int spacer=0x7f0b002c;
+        public static final int split_action_bar=0x7f0b0007;
+        public static final int src_atop=0x7f0b0015;
+        public static final int src_in=0x7f0b0016;
+        public static final int src_over=0x7f0b0017;
+        public static final int status_bar_latest_event_content=0x7f0b0066;
+        public static final int submit_area=0x7f0b004c;
+        public static final int tabMode=0x7f0b000b;
+        public static final int text=0x7f0b006e;
+        public static final int text2=0x7f0b006c;
+        public static final int textSpacerNoButtons=0x7f0b0034;
+        public static final int textView=0x7f0b0060;
+        public static final int textView1=0x7f0b0056;
+        public static final int time=0x7f0b006a;
+        public static final int title=0x7f0b002a;
+        public static final int title_template=0x7f0b002f;
+        public static final int topPanel=0x7f0b002e;
+        public static final int up=0x7f0b0008;
+        public static final int useLogo=0x7f0b0012;
+        public static final int vat=0x7f0b0054;
+        public static final int vat_text=0x7f0b0053;
+        public static final int weightText=0x7f0b0075;
+        public static final int withText=0x7f0b001f;
+        public static final int wrap_content=0x7f0b0020;
+        public static final int zone=0x7f0b007a;
     }
     public static final class integer {
-        public static final int abc_config_activityDefaultDur=0x7f0a0001;
-        public static final int abc_config_activityShortDur=0x7f0a0002;
-        public static final int abc_max_action_buttons=0x7f0a0000;
-        public static final int cancel_button_image_alpha=0x7f0a0003;
-        public static final int status_bar_notification_info_maxnum=0x7f0a0004;
+        public static final int abc_config_activityDefaultDur=0x7f090001;
+        public static final int abc_config_activityShortDur=0x7f090002;
+        public static final int abc_max_action_buttons=0x7f090000;
+        public static final int cancel_button_image_alpha=0x7f090003;
+        public static final int status_bar_notification_info_maxnum=0x7f090004;
     }
     public static final class layout {
-        public static final int abc_action_bar_title_item=0x7f040000;
-        public static final int abc_action_bar_up_container=0x7f040001;
-        public static final int abc_action_bar_view_list_nav_layout=0x7f040002;
-        public static final int abc_action_menu_item_layout=0x7f040003;
-        public static final int abc_action_menu_layout=0x7f040004;
-        public static final int abc_action_mode_bar=0x7f040005;
-        public static final int abc_action_mode_close_item_material=0x7f040006;
-        public static final int abc_activity_chooser_view=0x7f040007;
-        public static final int abc_activity_chooser_view_list_item=0x7f040008;
-        public static final int abc_alert_dialog_button_bar_material=0x7f040009;
-        public static final int abc_alert_dialog_material=0x7f04000a;
-        public static final int abc_dialog_title_material=0x7f04000b;
-        public static final int abc_expanded_menu_layout=0x7f04000c;
-        public static final int abc_list_menu_item_checkbox=0x7f04000d;
-        public static final int abc_list_menu_item_icon=0x7f04000e;
-        public static final int abc_list_menu_item_layout=0x7f04000f;
-        public static final int abc_list_menu_item_radio=0x7f040010;
-        public static final int abc_popup_menu_item_layout=0x7f040011;
-        public static final int abc_screen_content_include=0x7f040012;
-        public static final int abc_screen_simple=0x7f040013;
-        public static final int abc_screen_simple_overlay_action_mode=0x7f040014;
-        public static final int abc_screen_toolbar=0x7f040015;
-        public static final int abc_search_dropdown_item_icons_2line=0x7f040016;
-        public static final int abc_search_view=0x7f040017;
-        public static final int abc_select_dialog_material=0x7f040018;
-        public static final int activity_main=0x7f040019;
-        public static final int errorweb=0x7f04001a;
-        public static final int login=0x7f04001b;
-        public static final int marginwindow=0x7f04001c;
-        public static final int notification_media_action=0x7f04001d;
-        public static final int notification_media_cancel_action=0x7f04001e;
-        public static final int notification_template_big_media=0x7f04001f;
-        public static final int notification_template_big_media_narrow=0x7f040020;
-        public static final int notification_template_lines=0x7f040021;
-        public static final int notification_template_media=0x7f040022;
-        public static final int notification_template_part_chronometer=0x7f040023;
-        public static final int notification_template_part_time=0x7f040024;
-        public static final int select_dialog_item_material=0x7f040025;
-        public static final int select_dialog_multichoice_material=0x7f040026;
-        public static final int select_dialog_singlechoice_material=0x7f040027;
-        public static final int shipping=0x7f040028;
-        public static final int support_simple_spinner_dropdown_item=0x7f040029;
+        public static final int abc_action_bar_title_item=0x7f030000;
+        public static final int abc_action_bar_up_container=0x7f030001;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f030002;
+        public static final int abc_action_menu_item_layout=0x7f030003;
+        public static final int abc_action_menu_layout=0x7f030004;
+        public static final int abc_action_mode_bar=0x7f030005;
+        public static final int abc_action_mode_close_item_material=0x7f030006;
+        public static final int abc_activity_chooser_view=0x7f030007;
+        public static final int abc_activity_chooser_view_list_item=0x7f030008;
+        public static final int abc_alert_dialog_button_bar_material=0x7f030009;
+        public static final int abc_alert_dialog_material=0x7f03000a;
+        public static final int abc_dialog_title_material=0x7f03000b;
+        public static final int abc_expanded_menu_layout=0x7f03000c;
+        public static final int abc_list_menu_item_checkbox=0x7f03000d;
+        public static final int abc_list_menu_item_icon=0x7f03000e;
+        public static final int abc_list_menu_item_layout=0x7f03000f;
+        public static final int abc_list_menu_item_radio=0x7f030010;
+        public static final int abc_popup_menu_item_layout=0x7f030011;
+        public static final int abc_screen_content_include=0x7f030012;
+        public static final int abc_screen_simple=0x7f030013;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f030014;
+        public static final int abc_screen_toolbar=0x7f030015;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
+        public static final int abc_search_view=0x7f030017;
+        public static final int abc_select_dialog_material=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int errorweb=0x7f03001a;
+        public static final int login=0x7f03001b;
+        public static final int marginwindow=0x7f03001c;
+        public static final int notification_media_action=0x7f03001d;
+        public static final int notification_media_cancel_action=0x7f03001e;
+        public static final int notification_template_big_media=0x7f03001f;
+        public static final int notification_template_big_media_narrow=0x7f030020;
+        public static final int notification_template_lines=0x7f030021;
+        public static final int notification_template_media=0x7f030022;
+        public static final int notification_template_part_chronometer=0x7f030023;
+        public static final int notification_template_part_time=0x7f030024;
+        public static final int select_dialog_item_material=0x7f030025;
+        public static final int select_dialog_multichoice_material=0x7f030026;
+        public static final int select_dialog_singlechoice_material=0x7f030027;
+        public static final int shipping=0x7f030028;
+        public static final int support_simple_spinner_dropdown_item=0x7f030029;
     }
     public static final class menu {
-        public static final int main=0x7f0d0000;
-    }
-    public static final class mipmap {
-        public static final int newicon=0x7f030000;
+        public static final int main=0x7f0c0000;
     }
     public static final class string {
-        public static final int abc_action_bar_home_description=0x7f060000;
-        public static final int abc_action_bar_home_description_format=0x7f060001;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f060002;
-        public static final int abc_action_bar_up_description=0x7f060003;
-        public static final int abc_action_menu_overflow_description=0x7f060004;
-        public static final int abc_action_mode_done=0x7f060005;
-        public static final int abc_activity_chooser_view_see_all=0x7f060006;
-        public static final int abc_activitychooserview_choose_application=0x7f060007;
-        public static final int abc_capital_off=0x7f060008;
-        public static final int abc_capital_on=0x7f060009;
-        public static final int abc_search_hint=0x7f06000a;
-        public static final int abc_searchview_description_clear=0x7f06000b;
-        public static final int abc_searchview_description_query=0x7f06000c;
-        public static final int abc_searchview_description_search=0x7f06000d;
-        public static final int abc_searchview_description_submit=0x7f06000e;
-        public static final int abc_searchview_description_voice=0x7f06000f;
-        public static final int abc_shareactionprovider_share_with=0x7f060010;
-        public static final int abc_shareactionprovider_share_with_application=0x7f060011;
-        public static final int abc_toolbar_collapse_description=0x7f060012;
-        public static final int action_settings=0x7f060014;
-        public static final int app_name=0x7f060015;
-        public static final int hello_world=0x7f060016;
-        public static final int status_bar_notification_info_overflow=0x7f060013;
+        public static final int abc_action_bar_home_description=0x7f050000;
+        public static final int abc_action_bar_home_description_format=0x7f050001;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f050002;
+        public static final int abc_action_bar_up_description=0x7f050003;
+        public static final int abc_action_menu_overflow_description=0x7f050004;
+        public static final int abc_action_mode_done=0x7f050005;
+        public static final int abc_activity_chooser_view_see_all=0x7f050006;
+        public static final int abc_activitychooserview_choose_application=0x7f050007;
+        public static final int abc_capital_off=0x7f050008;
+        public static final int abc_capital_on=0x7f050009;
+        public static final int abc_search_hint=0x7f05000a;
+        public static final int abc_searchview_description_clear=0x7f05000b;
+        public static final int abc_searchview_description_query=0x7f05000c;
+        public static final int abc_searchview_description_search=0x7f05000d;
+        public static final int abc_searchview_description_submit=0x7f05000e;
+        public static final int abc_searchview_description_voice=0x7f05000f;
+        public static final int abc_shareactionprovider_share_with=0x7f050010;
+        public static final int abc_shareactionprovider_share_with_application=0x7f050011;
+        public static final int abc_toolbar_collapse_description=0x7f050012;
+        public static final int action_settings=0x7f050014;
+        public static final int app_name=0x7f050015;
+        public static final int hello_world=0x7f050016;
+        public static final int status_bar_notification_info_overflow=0x7f050013;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f09007e;
-        public static final int AlertDialog_AppCompat_Light=0x7f09007f;
-        public static final int Animation_AppCompat_Dialog=0x7f090080;
-        public static final int Animation_AppCompat_DropDownUp=0x7f090081;
+        public static final int AlertDialog_AppCompat=0x7f08007e;
+        public static final int AlertDialog_AppCompat_Light=0x7f08007f;
+        public static final int Animation_AppCompat_Dialog=0x7f080080;
+        public static final int Animation_AppCompat_DropDownUp=0x7f080081;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
 
@@ -1823,318 +1818,318 @@ containing a value of this type.
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f090004;
+        public static final int AppBaseTheme=0x7f080004;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f090082;
-        public static final int Base_AlertDialog_AppCompat=0x7f090083;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f090084;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f090085;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f090086;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f090087;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f090088;
-        public static final int Base_TextAppearance_AppCompat=0x7f090030;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f090031;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f090032;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f09001a;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f090033;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f090034;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f090035;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f090036;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f090037;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f090038;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f090005;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f090039;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f090006;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f09003a;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f09003b;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f09003c;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f090007;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f09003d;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f090089;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f09003e;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f09003f;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f090040;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f090008;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f090041;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f090009;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f090042;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f09000a;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f090043;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f090044;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f090045;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f090046;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f090047;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f090048;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f090049;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f09004a;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f09007a;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f09008a;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f09004b;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f09004c;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f09004d;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f09004e;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f09008b;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f09004f;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f090050;
-        public static final int Base_Theme_AppCompat=0x7f090051;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f09008c;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f09000b;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f09008d;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f09008e;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f09008f;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f090001;
-        public static final int Base_Theme_AppCompat_Light=0x7f090052;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f090090;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f09000c;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f090091;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f090092;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f090093;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f090002;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f090094;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f090095;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f090096;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f090097;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f090098;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f09000d;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f09000e;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f090016;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f090017;
-        public static final int Base_V21_Theme_AppCompat=0x7f090053;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f090054;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f090055;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f090056;
-        public static final int Base_V22_Theme_AppCompat=0x7f090078;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f090079;
-        public static final int Base_V23_Theme_AppCompat=0x7f09007b;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f09007c;
-        public static final int Base_V7_Theme_AppCompat=0x7f090099;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f09009a;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f09009b;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f09009c;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f09009d;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f09009e;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f09009f;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0900a0;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0900a1;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f090057;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f090058;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f090059;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f09005a;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f09005b;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0900a2;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0900a3;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f090018;
-        public static final int Base_Widget_AppCompat_Button=0x7f09005c;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f09005d;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f09005e;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0900a4;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f09007d;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f09005f;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f090060;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0900a5;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f090061;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f090062;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0900a6;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f090000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0900a7;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f090063;
-        public static final int Base_Widget_AppCompat_EditText=0x7f090019;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f090064;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0900a8;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0900a9;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0900aa;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f090065;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f090066;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f090067;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f090068;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f090069;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f09006a;
-        public static final int Base_Widget_AppCompat_ListView=0x7f09006b;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f09006c;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f09006d;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f09006e;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f09006f;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0900ab;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f09000f;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f090010;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f090070;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0900ac;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0900ad;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f090071;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f090072;
-        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f090003;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f090073;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0900ae;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f090074;
-        public static final int CustomActionBarTheme=0x7f0900af;
-        public static final int MyActionBar=0x7f0900b0;
-        public static final int Platform_AppCompat=0x7f090011;
-        public static final int Platform_AppCompat_Light=0x7f090012;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f090075;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f090076;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f090077;
-        public static final int Platform_V11_AppCompat=0x7f090013;
-        public static final int Platform_V11_AppCompat_Light=0x7f090014;
-        public static final int Platform_V14_AppCompat=0x7f09001b;
-        public static final int Platform_V14_AppCompat_Light=0x7f09001c;
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f090015;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f090022;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f090023;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f090024;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f090025;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f090026;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f090027;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f090028;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f090029;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f09002a;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f09002b;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f09002c;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f09002d;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f09002e;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f09002f;
-        public static final int TextAppearance_AppCompat=0x7f0900b1;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0900b2;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0900b3;
-        public static final int TextAppearance_AppCompat_Button=0x7f0900b4;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0900b5;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0900b6;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0900b7;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0900b8;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0900b9;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0900ba;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0900bb;
-        public static final int TextAppearance_AppCompat_Large=0x7f0900bc;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0900bd;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0900be;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0900bf;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0900c0;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0900c1;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0900c2;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0900c3;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0900c4;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0900c5;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0900c6;
-        public static final int TextAppearance_AppCompat_Small=0x7f0900c7;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0900c8;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0900c9;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0900ca;
-        public static final int TextAppearance_AppCompat_Title=0x7f0900cb;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0900cc;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0900cd;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0900ce;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0900cf;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0900d0;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0900d1;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0900d2;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0900d3;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0900d4;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0900d5;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0900d6;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0900d7;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0900d8;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0900d9;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0900da;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0900db;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0900dc;
-        public static final int TextAppearance_StatusBar_EventContent=0x7f09001d;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f09001e;
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f09001f;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f090020;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f090021;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0900dd;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0900de;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0900df;
-        public static final int Theme_AppCompat=0x7f0900e0;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0900e1;
-        public static final int Theme_AppCompat_Dialog=0x7f0900e2;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0900e3;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0900e4;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0900e5;
-        public static final int Theme_AppCompat_Light=0x7f0900e6;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0900e7;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0900e8;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0900e9;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0900ea;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0900eb;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0900ec;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0900ed;
+        public static final int AppTheme=0x7f080082;
+        public static final int Base_AlertDialog_AppCompat=0x7f080083;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f080084;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f080085;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f080086;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f080087;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f080088;
+        public static final int Base_TextAppearance_AppCompat=0x7f080030;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f080031;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f080032;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f08001a;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f080033;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f080034;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f080035;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f080036;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f080037;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f080038;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f080005;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f080039;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f080006;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f08003a;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f08003b;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f08003c;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f080007;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f08003d;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f080089;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f08003e;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f08003f;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f080040;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f080008;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f080041;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f080009;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f080042;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f08000a;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f080043;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f080044;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f080045;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f080046;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f080047;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f080048;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f080049;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f08004a;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f08007a;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f08008a;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f08004b;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f08004c;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f08004d;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f08004e;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f08008b;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08004f;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080050;
+        public static final int Base_Theme_AppCompat=0x7f080051;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f08008c;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f08000b;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f08008d;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f08008e;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f08008f;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f080001;
+        public static final int Base_Theme_AppCompat_Light=0x7f080052;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f080090;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f08000c;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f080091;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f080092;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f080093;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f080002;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f080094;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f080095;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f080096;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f080097;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f080098;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f08000d;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f08000e;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f080016;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f080017;
+        public static final int Base_V21_Theme_AppCompat=0x7f080053;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f080054;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f080055;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f080056;
+        public static final int Base_V22_Theme_AppCompat=0x7f080078;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f080079;
+        public static final int Base_V23_Theme_AppCompat=0x7f08007b;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f08007c;
+        public static final int Base_V7_Theme_AppCompat=0x7f080099;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f08009a;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f08009b;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f08009c;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f08009d;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f08009e;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f08009f;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800a0;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800a1;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f080057;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f080058;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f080059;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f08005a;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f08005b;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800a2;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800a3;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f080018;
+        public static final int Base_Widget_AppCompat_Button=0x7f08005c;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f08005d;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f08005e;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800a4;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f08007d;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f08005f;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f080060;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800a5;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f080061;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f080062;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800a6;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f080000;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800a7;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f080063;
+        public static final int Base_Widget_AppCompat_EditText=0x7f080019;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f080064;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800a8;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800a9;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800aa;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f080065;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080066;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f080067;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f080068;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f080069;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f08006a;
+        public static final int Base_Widget_AppCompat_ListView=0x7f08006b;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f08006c;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f08006d;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f08006e;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f08006f;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800ab;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f08000f;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f080010;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f080070;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0800ac;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800ad;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f080071;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f080072;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f080003;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f080073;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800ae;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080074;
+        public static final int CustomActionBarTheme=0x7f0800af;
+        public static final int MyActionBar=0x7f0800b0;
+        public static final int Platform_AppCompat=0x7f080011;
+        public static final int Platform_AppCompat_Light=0x7f080012;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f080075;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f080076;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f080077;
+        public static final int Platform_V11_AppCompat=0x7f080013;
+        public static final int Platform_V11_AppCompat_Light=0x7f080014;
+        public static final int Platform_V14_AppCompat=0x7f08001b;
+        public static final int Platform_V14_AppCompat_Light=0x7f08001c;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f080015;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f080022;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f080023;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f080024;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f080025;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f080026;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f080027;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f080028;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f080029;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f08002a;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f08002b;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f08002c;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f08002d;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f08002e;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f08002f;
+        public static final int TextAppearance_AppCompat=0x7f0800b1;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0800b2;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0800b3;
+        public static final int TextAppearance_AppCompat_Button=0x7f0800b4;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0800b5;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0800b6;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0800b7;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0800b8;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0800b9;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0800ba;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0800bb;
+        public static final int TextAppearance_AppCompat_Large=0x7f0800bc;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800bd;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800be;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800bf;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800c0;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800c1;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0800c2;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800c3;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0800c4;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800c5;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800c6;
+        public static final int TextAppearance_AppCompat_Small=0x7f0800c7;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800c8;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0800c9;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800ca;
+        public static final int TextAppearance_AppCompat_Title=0x7f0800cb;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800cc;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800cd;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800ce;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800cf;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800d0;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800d1;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800d2;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800d3;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800d4;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800d5;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0800d6;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0800d7;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800d8;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0800d9;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0800da;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0800db;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0800dc;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f08001d;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f08001e;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f08001f;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f080020;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f080021;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800dd;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0800de;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0800df;
+        public static final int Theme_AppCompat=0x7f0800e0;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0800e1;
+        public static final int Theme_AppCompat_Dialog=0x7f0800e2;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0800e3;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0800e4;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0800e5;
+        public static final int Theme_AppCompat_Light=0x7f0800e6;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0800e7;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0800e8;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0800e9;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0800ea;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0800eb;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0800ec;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0800ed;
         /**  Other attributes 
          */
-        public static final int Theme_MyTheme=0x7f0900ee;
-        public static final int ThemeOverlay_AppCompat=0x7f0900ef;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0900f0;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0900f1;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0900f2;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0900f3;
-        public static final int Widget_AppCompat_ActionBar=0x7f0900f4;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0900f5;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0900f6;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0900f7;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0900f8;
-        public static final int Widget_AppCompat_ActionButton=0x7f0900f9;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0900fa;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0900fb;
-        public static final int Widget_AppCompat_ActionMode=0x7f0900fc;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0900fd;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0900fe;
-        public static final int Widget_AppCompat_Button=0x7f0900ff;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f090100;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f090101;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f090102;
-        public static final int Widget_AppCompat_Button_Colored=0x7f090103;
-        public static final int Widget_AppCompat_Button_Small=0x7f090104;
-        public static final int Widget_AppCompat_ButtonBar=0x7f090105;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f090106;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f090107;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f090108;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f090109;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f09010a;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f09010b;
-        public static final int Widget_AppCompat_EditText=0x7f09010c;
-        public static final int Widget_AppCompat_ImageButton=0x7f09010d;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f09010e;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f09010f;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f090110;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f090111;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f090112;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f090113;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f090114;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f090115;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f090116;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f090117;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f090118;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f090119;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f09011a;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f09011b;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f09011c;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f09011d;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f09011e;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f09011f;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f090120;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f090121;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f090122;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f090123;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f090124;
-        public static final int Widget_AppCompat_ListView=0x7f090125;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f090126;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f090127;
-        public static final int Widget_AppCompat_PopupMenu=0x7f090128;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f090129;
-        public static final int Widget_AppCompat_PopupWindow=0x7f09012a;
-        public static final int Widget_AppCompat_ProgressBar=0x7f09012b;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f09012c;
-        public static final int Widget_AppCompat_RatingBar=0x7f09012d;
-        public static final int Widget_AppCompat_SearchView=0x7f09012e;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f09012f;
-        public static final int Widget_AppCompat_SeekBar=0x7f090130;
-        public static final int Widget_AppCompat_Spinner=0x7f090131;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f090132;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f090133;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f090134;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f090135;
-        public static final int Widget_AppCompat_Toolbar=0x7f090136;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f090137;
+        public static final int Theme_MyTheme=0x7f0800ee;
+        public static final int ThemeOverlay_AppCompat=0x7f0800ef;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0800f0;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0800f1;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800f2;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0800f3;
+        public static final int Widget_AppCompat_ActionBar=0x7f0800f4;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0800f5;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0800f6;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0800f7;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0800f8;
+        public static final int Widget_AppCompat_ActionButton=0x7f0800f9;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0800fa;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0800fb;
+        public static final int Widget_AppCompat_ActionMode=0x7f0800fc;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0800fd;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0800fe;
+        public static final int Widget_AppCompat_Button=0x7f0800ff;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f080100;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f080101;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f080102;
+        public static final int Widget_AppCompat_Button_Colored=0x7f080103;
+        public static final int Widget_AppCompat_Button_Small=0x7f080104;
+        public static final int Widget_AppCompat_ButtonBar=0x7f080105;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f080106;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f080107;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080108;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080109;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f08010a;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f08010b;
+        public static final int Widget_AppCompat_EditText=0x7f08010c;
+        public static final int Widget_AppCompat_ImageButton=0x7f08010d;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f08010e;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f08010f;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f080110;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f080111;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f080112;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f080113;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080114;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f080115;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f080116;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f080117;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080118;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080119;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f08011a;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f08011b;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f08011c;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f08011d;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f08011e;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f08011f;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f080120;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f080121;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f080122;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f080123;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f080124;
+        public static final int Widget_AppCompat_ListView=0x7f080125;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f080126;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f080127;
+        public static final int Widget_AppCompat_PopupMenu=0x7f080128;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080129;
+        public static final int Widget_AppCompat_PopupWindow=0x7f08012a;
+        public static final int Widget_AppCompat_ProgressBar=0x7f08012b;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f08012c;
+        public static final int Widget_AppCompat_RatingBar=0x7f08012d;
+        public static final int Widget_AppCompat_SearchView=0x7f08012e;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f08012f;
+        public static final int Widget_AppCompat_SeekBar=0x7f080130;
+        public static final int Widget_AppCompat_Spinner=0x7f080131;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f080132;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f080133;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f080134;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f080135;
+        public static final int Widget_AppCompat_Toolbar=0x7f080136;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080137;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -2143,33 +2138,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.technotronics.priceconverter:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.technotronics.priceconverter:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.technotronics.priceconverter:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.technotronics.priceconverter:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.technotronics.priceconverter:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.technotronics.priceconverter:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.technotronics.priceconverter:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.technotronics.priceconverter:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.technotronics.priceconverter:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.technotronics.priceconverter:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.technotronics.priceconverter:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.technotronics.priceconverter:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.technotronics.priceconverter:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.technotronics.priceconverter:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.technotronics.priceconverter:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.technotronics.priceconverter:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.technotronics.priceconverter:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.technotronics.priceconverter:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.technotronics.priceconverter:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.technotronics.priceconverter:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.technotronics.priceconverter:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.technotronics.priceconverter:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.technotronics.priceconverter:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.technotronics.priceconverter:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.technotronics.priceconverter:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.technotronics.priceconverter:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.technotronics.priceconverter:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.technotronic.priceconverter:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.technotronic.priceconverter:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.technotronic.priceconverter:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.technotronic.priceconverter:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.technotronic.priceconverter:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.technotronic.priceconverter:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.technotronic.priceconverter:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.technotronic.priceconverter:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.technotronic.priceconverter:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.technotronic.priceconverter:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.technotronic.priceconverter:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.technotronic.priceconverter:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.technotronic.priceconverter:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.technotronic.priceconverter:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.technotronic.priceconverter:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.technotronic.priceconverter:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.technotronic.priceconverter:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.technotronic.priceconverter:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.technotronic.priceconverter:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.technotronic.priceconverter:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.technotronic.priceconverter:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.technotronic.priceconverter:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.technotronic.priceconverter:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.technotronic.priceconverter:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.technotronic.priceconverter:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.technotronic.priceconverter:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.technotronic.priceconverter:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2209,17 +2204,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f01007c
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#background}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:background
+          @attr name com.technotronic.priceconverter:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2227,11 +2222,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.technotronics.priceconverter:backgroundSplit
+          @attr name com.technotronic.priceconverter:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2239,11 +2234,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.technotronics.priceconverter:backgroundStacked
+          @attr name com.technotronic.priceconverter:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2255,11 +2250,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetEnd
+          @attr name com.technotronic.priceconverter:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2271,11 +2266,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetLeft
+          @attr name com.technotronic.priceconverter:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2287,11 +2282,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetRight
+          @attr name com.technotronic.priceconverter:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2303,21 +2298,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetStart
+          @attr name com.technotronic.priceconverter:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:customNavigationLayout
+          @attr name com.technotronic.priceconverter:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2335,21 +2330,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.technotronics.priceconverter:displayOptions
+          @attr name com.technotronic.priceconverter:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:divider
+          @attr name com.technotronic.priceconverter:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2361,11 +2356,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:elevation
+          @attr name com.technotronic.priceconverter:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#height}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2377,11 +2372,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:height
+          @attr name com.technotronic.priceconverter:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2391,51 +2386,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:hideOnContentScroll
+          @attr name com.technotronic.priceconverter:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:homeAsUpIndicator
+          @attr name com.technotronic.priceconverter:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:homeLayout
+          @attr name com.technotronic.priceconverter:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:icon
+          @attr name com.technotronic.priceconverter:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:indeterminateProgressStyle
+          @attr name com.technotronic.priceconverter:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2447,21 +2442,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:itemPadding
+          @attr name com.technotronic.priceconverter:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:logo
+          @attr name com.technotronic.priceconverter:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2475,21 +2470,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.technotronics.priceconverter:navigationMode
+          @attr name com.technotronic.priceconverter:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:popupTheme
+          @attr name com.technotronic.priceconverter:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2501,21 +2496,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:progressBarPadding
+          @attr name com.technotronic.priceconverter:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:progressBarStyle
+          @attr name com.technotronic.priceconverter:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2525,21 +2520,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:subtitle
+          @attr name com.technotronic.priceconverter:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:subtitleTextStyle
+          @attr name com.technotronic.priceconverter:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#title}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2549,17 +2544,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:title
+          @attr name com.technotronic.priceconverter:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:titleTextStyle
+          @attr name com.technotronic.priceconverter:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2611,12 +2606,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.technotronics.priceconverter:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.technotronics.priceconverter:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.technotronics.priceconverter:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.technotronics.priceconverter:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.technotronics.priceconverter:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.technotronics.priceconverter:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.technotronic.priceconverter:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.technotronic.priceconverter:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.technotronic.priceconverter:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.technotronic.priceconverter:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.technotronic.priceconverter:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.technotronic.priceconverter:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2630,17 +2625,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#background}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:background
+          @attr name com.technotronic.priceconverter:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2648,21 +2643,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.technotronics.priceconverter:backgroundSplit
+          @attr name com.technotronic.priceconverter:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:closeItemLayout
+          @attr name com.technotronic.priceconverter:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#height}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2674,27 +2669,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:height
+          @attr name com.technotronic.priceconverter:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:subtitleTextStyle
+          @attr name com.technotronic.priceconverter:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:titleTextStyle
+          @attr name com.technotronic.priceconverter:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2703,8 +2698,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.technotronics.priceconverter:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.technotronics.priceconverter:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.technotronic.priceconverter:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.technotronic.priceconverter:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2713,17 +2708,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:expandActivityOverflowButtonDrawable
+          @attr name com.technotronic.priceconverter:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2733,7 +2728,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:initialActivityCount
+          @attr name com.technotronic.priceconverter:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -2743,11 +2738,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.technotronics.priceconverter:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.technotronics.priceconverter:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.technotronics.priceconverter:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.technotronics.priceconverter:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.technotronics.priceconverter:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.technotronic.priceconverter:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.technotronic.priceconverter:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.technotronic.priceconverter:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.technotronic.priceconverter:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.technotronic.priceconverter:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -2767,53 +2762,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonPanelSideLayout
+          @attr name com.technotronic.priceconverter:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:listItemLayout
+          @attr name com.technotronic.priceconverter:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:listLayout
+          @attr name com.technotronic.priceconverter:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:multiChoiceItemLayout
+          @attr name com.technotronic.priceconverter:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:singleChoiceItemLayout
+          @attr name com.technotronic.priceconverter:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppCompatTextView.
@@ -2823,7 +2818,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.technotronics.priceconverter:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.technotronic.priceconverter:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -2838,14 +2833,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.technotronics.priceconverter:textAllCaps
+          @attr name com.technotronic.priceconverter:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -2854,7 +2849,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.technotronics.priceconverter:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.technotronic.priceconverter:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -2862,7 +2857,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010025
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -2872,7 +2867,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:allowStacking
+          @attr name com.technotronic.priceconverter:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CompoundButton.
@@ -2882,8 +2877,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.technotronics.priceconverter:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.technotronics.priceconverter:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.technotronic.priceconverter:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.technotronic.priceconverter:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -2899,7 +2894,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -2910,11 +2905,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:buttonTint
+          @attr name com.technotronic.priceconverter:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -2930,7 +2925,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.technotronics.priceconverter:buttonTintMode
+          @attr name com.technotronic.priceconverter:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -2939,14 +2934,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.technotronics.priceconverter:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.technotronics.priceconverter:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.technotronics.priceconverter:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.technotronics.priceconverter:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.technotronics.priceconverter:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.technotronics.priceconverter:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.technotronics.priceconverter:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.technotronics.priceconverter:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.technotronic.priceconverter:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.technotronic.priceconverter:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.technotronic.priceconverter:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.technotronic.priceconverter:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.technotronic.priceconverter:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.technotronic.priceconverter:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.technotronic.priceconverter:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.technotronic.priceconverter:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -2962,7 +2957,7 @@ containing a value of this type.
             0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2974,11 +2969,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:arrowHeadLength
+          @attr name com.technotronic.priceconverter:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2990,11 +2985,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:arrowShaftLength
+          @attr name com.technotronic.priceconverter:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3006,11 +3001,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:barLength
+          @attr name com.technotronic.priceconverter:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#color}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3021,11 +3016,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:color
+          @attr name com.technotronic.priceconverter:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3037,11 +3032,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:drawableSize
+          @attr name com.technotronic.priceconverter:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3053,11 +3048,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:gapBetweenBars
+          @attr name com.technotronic.priceconverter:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3067,11 +3062,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:spinBars
+          @attr name com.technotronic.priceconverter:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3083,7 +3078,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:thickness
+          @attr name com.technotronic.priceconverter:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -3097,10 +3092,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.technotronics.priceconverter:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.technotronics.priceconverter:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.technotronics.priceconverter:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.technotronics.priceconverter:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.technotronic.priceconverter:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.technotronic.priceconverter:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.technotronic.priceconverter:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.technotronic.priceconverter:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3148,17 +3143,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:divider
+          @attr name com.technotronic.priceconverter:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3170,11 +3165,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:dividerPadding
+          @attr name com.technotronic.priceconverter:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3184,11 +3179,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:measureWithLargestChild
+          @attr name com.technotronic.priceconverter:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3203,7 +3198,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.technotronics.priceconverter:showDividers
+          @attr name com.technotronic.priceconverter:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -3342,9 +3337,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.technotronics.priceconverter:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.technotronics.priceconverter:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.technotronics.priceconverter:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.technotronic.priceconverter:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.technotronic.priceconverter:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.technotronic.priceconverter:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -3358,7 +3353,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.technotronics.priceconverter:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.technotronic.priceconverter:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3386,17 +3381,17 @@ containing a value of this type.
             0x7f010036
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionLayout
+          @attr name com.technotronic.priceconverter:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3406,11 +3401,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:actionProviderClass
+          @attr name com.technotronic.priceconverter:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3420,7 +3415,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:actionViewClass
+          @attr name com.technotronic.priceconverter:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3502,7 +3497,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3518,7 +3513,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.technotronics.priceconverter:showAsAction
+          @attr name com.technotronic.priceconverter:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3534,7 +3529,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.technotronics.priceconverter:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.technotronic.priceconverter:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3592,7 +3587,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3602,7 +3597,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:preserveIconSpacing
+          @attr name com.technotronic.priceconverter:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3612,7 +3607,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.technotronics.priceconverter:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.technotronic.priceconverter:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -3627,7 +3622,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3637,7 +3632,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:overlapAnchor
+          @attr name com.technotronic.priceconverter:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3646,7 +3641,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.technotronics.priceconverter:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.technotronic.priceconverter:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -3654,7 +3649,7 @@ containing a value of this type.
             0x7f010039
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3664,7 +3659,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:state_above_anchor
+          @attr name com.technotronic.priceconverter:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3677,19 +3672,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.technotronics.priceconverter:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.technotronics.priceconverter:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.technotronics.priceconverter:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.technotronics.priceconverter:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.technotronics.priceconverter:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.technotronics.priceconverter:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.technotronics.priceconverter:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.technotronics.priceconverter:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.technotronics.priceconverter:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.technotronics.priceconverter:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.technotronics.priceconverter:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.technotronics.priceconverter:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.technotronics.priceconverter:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.technotronic.priceconverter:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.technotronic.priceconverter:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.technotronic.priceconverter:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.technotronic.priceconverter:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.technotronic.priceconverter:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.technotronic.priceconverter:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.technotronic.priceconverter:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.technotronic.priceconverter:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.technotronic.priceconverter:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.technotronic.priceconverter:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.technotronic.priceconverter:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.technotronic.priceconverter:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.technotronic.priceconverter:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3741,27 +3736,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:closeIcon
+          @attr name com.technotronic.priceconverter:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:commitIcon
+          @attr name com.technotronic.priceconverter:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3771,21 +3766,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:defaultQueryHint
+          @attr name com.technotronic.priceconverter:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:goIcon
+          @attr name com.technotronic.priceconverter:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3795,31 +3790,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:iconifiedByDefault
+          @attr name com.technotronic.priceconverter:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:layout
+          @attr name com.technotronic.priceconverter:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:queryBackground
+          @attr name com.technotronic.priceconverter:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3829,57 +3824,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:queryHint
+          @attr name com.technotronic.priceconverter:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:searchHintIcon
+          @attr name com.technotronic.priceconverter:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:searchIcon
+          @attr name com.technotronic.priceconverter:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:submitBackground
+          @attr name com.technotronic.priceconverter:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:suggestionRowLayout
+          @attr name com.technotronic.priceconverter:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:voiceIcon
+          @attr name com.technotronic.priceconverter:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a Spinner.
@@ -3891,7 +3886,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.technotronics.priceconverter:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.technotronic.priceconverter:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_popupBackground
@@ -3920,13 +3915,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_prompt = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:popupTheme
+          @attr name com.technotronic.priceconverter:popupTheme
         */
         public static final int Spinner_popupTheme = 3;
         /** Attributes that can be used with a SwitchCompat.
@@ -3938,13 +3933,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.technotronics.priceconverter:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.technotronics.priceconverter:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.technotronics.priceconverter:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.technotronics.priceconverter:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.technotronics.priceconverter:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.technotronics.priceconverter:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.technotronics.priceconverter:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.technotronic.priceconverter:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.technotronic.priceconverter:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.technotronic.priceconverter:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.technotronic.priceconverter:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.technotronic.priceconverter:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.technotronic.priceconverter:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.technotronic.priceconverter:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -3981,7 +3976,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3991,11 +3986,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:showText
+          @attr name com.technotronic.priceconverter:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4005,11 +4000,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:splitTrack
+          @attr name com.technotronic.priceconverter:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4021,11 +4016,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:switchMinWidth
+          @attr name com.technotronic.priceconverter:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4037,21 +4032,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:switchPadding
+          @attr name com.technotronic.priceconverter:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:switchTextAppearance
+          @attr name com.technotronic.priceconverter:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4063,17 +4058,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:thumbTextPadding
+          @attr name com.technotronic.priceconverter:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#track}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:track
+          @attr name com.technotronic.priceconverter:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TextAppearance.
@@ -4090,7 +4085,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.technotronics.priceconverter:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.technotronic.priceconverter:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -4156,14 +4151,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.technotronics.priceconverter:textAllCaps
+          @attr name com.technotronic.priceconverter:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a Theme.
@@ -4172,116 +4167,116 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.technotronics.priceconverter:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.technotronics.priceconverter:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.technotronics.priceconverter:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.technotronics.priceconverter:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.technotronics.priceconverter:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.technotronics.priceconverter:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.technotronics.priceconverter:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.technotronics.priceconverter:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.technotronics.priceconverter:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.technotronics.priceconverter:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.technotronics.priceconverter:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.technotronics.priceconverter:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.technotronics.priceconverter:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.technotronics.priceconverter:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.technotronics.priceconverter:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.technotronics.priceconverter:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.technotronics.priceconverter:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.technotronics.priceconverter:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.technotronics.priceconverter:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.technotronics.priceconverter:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.technotronics.priceconverter:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.technotronics.priceconverter:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.technotronics.priceconverter:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.technotronics.priceconverter:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.technotronics.priceconverter:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.technotronics.priceconverter:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.technotronics.priceconverter:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.technotronics.priceconverter:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.technotronics.priceconverter:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.technotronics.priceconverter:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.technotronics.priceconverter:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.technotronics.priceconverter:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.technotronics.priceconverter:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle com.technotronics.priceconverter:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme com.technotronics.priceconverter:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.technotronic.priceconverter:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.technotronic.priceconverter:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.technotronic.priceconverter:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.technotronic.priceconverter:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.technotronic.priceconverter:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.technotronic.priceconverter:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.technotronic.priceconverter:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.technotronic.priceconverter:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.technotronic.priceconverter:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.technotronic.priceconverter:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.technotronic.priceconverter:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.technotronic.priceconverter:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.technotronic.priceconverter:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.technotronic.priceconverter:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.technotronic.priceconverter:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.technotronic.priceconverter:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.technotronic.priceconverter:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.technotronic.priceconverter:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.technotronic.priceconverter:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.technotronic.priceconverter:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.technotronic.priceconverter:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.technotronic.priceconverter:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.technotronic.priceconverter:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.technotronic.priceconverter:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.technotronic.priceconverter:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.technotronic.priceconverter:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.technotronic.priceconverter:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.technotronic.priceconverter:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.technotronic.priceconverter:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.technotronic.priceconverter:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.technotronic.priceconverter:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.technotronic.priceconverter:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.technotronic.priceconverter:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle com.technotronic.priceconverter:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme com.technotronic.priceconverter:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.technotronics.priceconverter:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle com.technotronics.priceconverter:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.technotronics.priceconverter:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.technotronics.priceconverter:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.technotronics.priceconverter:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.technotronics.priceconverter:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.technotronics.priceconverter:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle com.technotronics.priceconverter:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall com.technotronics.priceconverter:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle com.technotronics.priceconverter:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle com.technotronics.priceconverter:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.technotronics.priceconverter:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.technotronics.priceconverter:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.technotronics.priceconverter:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.technotronics.priceconverter:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.technotronics.priceconverter:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.technotronics.priceconverter:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.technotronics.priceconverter:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.technotronics.priceconverter:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_controlBackground com.technotronics.priceconverter:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding com.technotronics.priceconverter:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme com.technotronics.priceconverter:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.technotronics.priceconverter:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.technotronics.priceconverter:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.technotronics.priceconverter:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.technotronics.priceconverter:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.technotronics.priceconverter:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.technotronics.priceconverter:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle com.technotronics.priceconverter:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.technotronics.priceconverter:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_imageButtonStyle com.technotronics.priceconverter:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.technotronics.priceconverter:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog com.technotronics.priceconverter:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.technotronics.priceconverter:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.technotronics.priceconverter:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.technotronics.priceconverter:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.technotronics.priceconverter:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.technotronics.priceconverter:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.technotronics.priceconverter:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.technotronics.priceconverter:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.technotronics.priceconverter:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.technotronics.priceconverter:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.technotronics.priceconverter:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.technotronics.priceconverter:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle com.technotronics.priceconverter:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle com.technotronics.priceconverter:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.technotronics.priceconverter:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_seekBarStyle com.technotronics.priceconverter:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.technotronics.priceconverter:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.technotronics.priceconverter:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.technotronics.priceconverter:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.technotronics.priceconverter:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.technotronics.priceconverter:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.technotronics.priceconverter:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.technotronics.priceconverter:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.technotronics.priceconverter:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.technotronics.priceconverter:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.technotronics.priceconverter:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.technotronics.priceconverter:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.technotronics.priceconverter:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.technotronics.priceconverter:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.technotronics.priceconverter:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.technotronics.priceconverter:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.technotronics.priceconverter:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.technotronics.priceconverter:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.technotronics.priceconverter:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.technotronics.priceconverter:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.technotronics.priceconverter:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.technotronics.priceconverter:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.technotronics.priceconverter:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor com.technotronics.priceconverter:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor com.technotronics.priceconverter:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle com.technotronics.priceconverter:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.technotronic.priceconverter:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle com.technotronic.priceconverter:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.technotronic.priceconverter:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.technotronic.priceconverter:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.technotronic.priceconverter:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.technotronic.priceconverter:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.technotronic.priceconverter:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle com.technotronic.priceconverter:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall com.technotronic.priceconverter:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle com.technotronic.priceconverter:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle com.technotronic.priceconverter:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.technotronic.priceconverter:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.technotronic.priceconverter:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.technotronic.priceconverter:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.technotronic.priceconverter:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.technotronic.priceconverter:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.technotronic.priceconverter:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.technotronic.priceconverter:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.technotronic.priceconverter:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_controlBackground com.technotronic.priceconverter:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding com.technotronic.priceconverter:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme com.technotronic.priceconverter:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.technotronic.priceconverter:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.technotronic.priceconverter:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.technotronic.priceconverter:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.technotronic.priceconverter:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.technotronic.priceconverter:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.technotronic.priceconverter:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle com.technotronic.priceconverter:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.technotronic.priceconverter:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_imageButtonStyle com.technotronic.priceconverter:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.technotronic.priceconverter:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog com.technotronic.priceconverter:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.technotronic.priceconverter:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.technotronic.priceconverter:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.technotronic.priceconverter:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.technotronic.priceconverter:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.technotronic.priceconverter:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.technotronic.priceconverter:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.technotronic.priceconverter:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.technotronic.priceconverter:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.technotronic.priceconverter:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.technotronic.priceconverter:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.technotronic.priceconverter:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle com.technotronic.priceconverter:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle com.technotronic.priceconverter:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.technotronic.priceconverter:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_seekBarStyle com.technotronic.priceconverter:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.technotronic.priceconverter:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.technotronic.priceconverter:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.technotronic.priceconverter:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.technotronic.priceconverter:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.technotronic.priceconverter:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.technotronic.priceconverter:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.technotronic.priceconverter:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.technotronic.priceconverter:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.technotronic.priceconverter:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.technotronic.priceconverter:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.technotronic.priceconverter:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.technotronic.priceconverter:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.technotronic.priceconverter:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.technotronic.priceconverter:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.technotronic.priceconverter:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.technotronic.priceconverter:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.technotronic.priceconverter:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.technotronic.priceconverter:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.technotronic.priceconverter:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.technotronic.priceconverter:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.technotronic.priceconverter:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.technotronic.priceconverter:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor com.technotronic.priceconverter:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor com.technotronic.priceconverter:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle com.technotronic.priceconverter:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -4425,37 +4420,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b8, 0x7f0100b9
         };
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarDivider
+          @attr name com.technotronic.priceconverter:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarItemBackground
+          @attr name com.technotronic.priceconverter:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarPopupTheme
+          @attr name com.technotronic.priceconverter:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4475,111 +4470,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.technotronics.priceconverter:actionBarSize
+          @attr name com.technotronic.priceconverter:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarSplitStyle
+          @attr name com.technotronic.priceconverter:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarStyle
+          @attr name com.technotronic.priceconverter:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarTabBarStyle
+          @attr name com.technotronic.priceconverter:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarTabStyle
+          @attr name com.technotronic.priceconverter:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarTabTextStyle
+          @attr name com.technotronic.priceconverter:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarTheme
+          @attr name com.technotronic.priceconverter:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionBarWidgetTheme
+          @attr name com.technotronic.priceconverter:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionButtonStyle
+          @attr name com.technotronic.priceconverter:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionDropDownStyle
+          @attr name com.technotronic.priceconverter:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionMenuTextAppearance
+          @attr name com.technotronic.priceconverter:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4587,181 +4582,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.technotronics.priceconverter:actionMenuTextColor
+          @attr name com.technotronic.priceconverter:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeBackground
+          @attr name com.technotronic.priceconverter:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeCloseButtonStyle
+          @attr name com.technotronic.priceconverter:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeCloseDrawable
+          @attr name com.technotronic.priceconverter:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeCopyDrawable
+          @attr name com.technotronic.priceconverter:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeCutDrawable
+          @attr name com.technotronic.priceconverter:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeFindDrawable
+          @attr name com.technotronic.priceconverter:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModePasteDrawable
+          @attr name com.technotronic.priceconverter:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModePopupWindowStyle
+          @attr name com.technotronic.priceconverter:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeSelectAllDrawable
+          @attr name com.technotronic.priceconverter:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeShareDrawable
+          @attr name com.technotronic.priceconverter:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeSplitBackground
+          @attr name com.technotronic.priceconverter:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeStyle
+          @attr name com.technotronic.priceconverter:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionModeWebSearchDrawable
+          @attr name com.technotronic.priceconverter:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionOverflowButtonStyle
+          @attr name com.technotronic.priceconverter:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:actionOverflowMenuStyle
+          @attr name com.technotronic.priceconverter:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:activityChooserViewStyle
+          @attr name com.technotronic.priceconverter:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:alertDialogButtonGroupStyle
+          @attr name com.technotronic.priceconverter:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4771,27 +4766,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:alertDialogCenterButtons
+          @attr name com.technotronic.priceconverter:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:alertDialogStyle
+          @attr name com.technotronic.priceconverter:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:alertDialogTheme
+          @attr name com.technotronic.priceconverter:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 94;
         /**
@@ -4807,117 +4802,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:autoCompleteTextViewStyle
+          @attr name com.technotronic.priceconverter:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:borderlessButtonStyle
+          @attr name com.technotronic.priceconverter:borderlessButtonStyle
         */
         public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonBarButtonStyle
+          @attr name com.technotronic.priceconverter:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonBarNegativeButtonStyle
+          @attr name com.technotronic.priceconverter:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonBarNeutralButtonStyle
+          @attr name com.technotronic.priceconverter:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonBarPositiveButtonStyle
+          @attr name com.technotronic.priceconverter:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonBarStyle
+          @attr name com.technotronic.priceconverter:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonStyle
+          @attr name com.technotronic.priceconverter:buttonStyle
         */
         public static final int Theme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:buttonStyleSmall
+          @attr name com.technotronic.priceconverter:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:checkboxStyle
+          @attr name com.technotronic.priceconverter:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:checkedTextViewStyle
+          @attr name com.technotronic.priceconverter:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4928,11 +4923,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorAccent
+          @attr name com.technotronic.priceconverter:colorAccent
         */
         public static final int Theme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4943,11 +4938,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorButtonNormal
+          @attr name com.technotronic.priceconverter:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4958,11 +4953,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorControlActivated
+          @attr name com.technotronic.priceconverter:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4973,11 +4968,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorControlHighlight
+          @attr name com.technotronic.priceconverter:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4988,11 +4983,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorControlNormal
+          @attr name com.technotronic.priceconverter:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5003,11 +4998,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorPrimary
+          @attr name com.technotronic.priceconverter:colorPrimary
         */
         public static final int Theme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5018,11 +5013,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorPrimaryDark
+          @attr name com.technotronic.priceconverter:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5033,21 +5028,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:colorSwitchThumbNormal
+          @attr name com.technotronic.priceconverter:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#controlBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:controlBackground
+          @attr name com.technotronic.priceconverter:controlBackground
         */
         public static final int Theme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5059,51 +5054,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:dialogPreferredPadding
+          @attr name com.technotronic.priceconverter:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:dialogTheme
+          @attr name com.technotronic.priceconverter:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:dividerHorizontal
+          @attr name com.technotronic.priceconverter:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:dividerVertical
+          @attr name com.technotronic.priceconverter:dividerVertical
         */
         public static final int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:dropDownListViewStyle
+          @attr name com.technotronic.priceconverter:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5115,21 +5110,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:dropdownListPreferredItemHeight
+          @attr name com.technotronic.priceconverter:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:editTextBackground
+          @attr name com.technotronic.priceconverter:editTextBackground
         */
         public static final int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5137,71 +5132,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.technotronics.priceconverter:editTextColor
+          @attr name com.technotronic.priceconverter:editTextColor
         */
         public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:editTextStyle
+          @attr name com.technotronic.priceconverter:editTextStyle
         */
         public static final int Theme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:homeAsUpIndicator
+          @attr name com.technotronic.priceconverter:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:imageButtonStyle
+          @attr name com.technotronic.priceconverter:imageButtonStyle
         */
         public static final int Theme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:listChoiceBackgroundIndicator
+          @attr name com.technotronic.priceconverter:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:listDividerAlertDialog
+          @attr name com.technotronic.priceconverter:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:listPopupWindowStyle
+          @attr name com.technotronic.priceconverter:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5213,11 +5208,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:listPreferredItemHeight
+          @attr name com.technotronic.priceconverter:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5229,11 +5224,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:listPreferredItemHeightLarge
+          @attr name com.technotronic.priceconverter:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5245,11 +5240,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:listPreferredItemHeightSmall
+          @attr name com.technotronic.priceconverter:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5261,11 +5256,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:listPreferredItemPaddingLeft
+          @attr name com.technotronic.priceconverter:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5277,31 +5272,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:listPreferredItemPaddingRight
+          @attr name com.technotronic.priceconverter:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:panelBackground
+          @attr name com.technotronic.priceconverter:panelBackground
         */
         public static final int Theme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:panelMenuListTheme
+          @attr name com.technotronic.priceconverter:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5313,181 +5308,181 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:panelMenuListWidth
+          @attr name com.technotronic.priceconverter:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:popupMenuStyle
+          @attr name com.technotronic.priceconverter:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:popupWindowStyle
+          @attr name com.technotronic.priceconverter:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:radioButtonStyle
+          @attr name com.technotronic.priceconverter:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:ratingBarStyle
+          @attr name com.technotronic.priceconverter:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:searchViewStyle
+          @attr name com.technotronic.priceconverter:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:seekBarStyle
+          @attr name com.technotronic.priceconverter:seekBarStyle
         */
         public static final int Theme_seekBarStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:selectableItemBackground
+          @attr name com.technotronic.priceconverter:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:selectableItemBackgroundBorderless
+          @attr name com.technotronic.priceconverter:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:spinnerDropDownItemStyle
+          @attr name com.technotronic.priceconverter:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:spinnerStyle
+          @attr name com.technotronic.priceconverter:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:switchStyle
+          @attr name com.technotronic.priceconverter:switchStyle
         */
         public static final int Theme_switchStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:textAppearanceLargePopupMenu
+          @attr name com.technotronic.priceconverter:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:textAppearanceListItem
+          @attr name com.technotronic.priceconverter:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:textAppearanceListItemSmall
+          @attr name com.technotronic.priceconverter:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:textAppearanceSearchResultSubtitle
+          @attr name com.technotronic.priceconverter:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:textAppearanceSearchResultTitle
+          @attr name com.technotronic.priceconverter:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:textAppearanceSmallPopupMenu
+          @attr name com.technotronic.priceconverter:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5495,11 +5490,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.technotronics.priceconverter:textColorAlertDialogListItem
+          @attr name com.technotronic.priceconverter:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5507,31 +5502,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.technotronics.priceconverter:textColorSearchUrl
+          @attr name com.technotronic.priceconverter:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:toolbarNavigationButtonStyle
+          @attr name com.technotronic.priceconverter:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:toolbarStyle
+          @attr name com.technotronic.priceconverter:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5541,11 +5536,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowActionBar
+          @attr name com.technotronic.priceconverter:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5555,11 +5550,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowActionBarOverlay
+          @attr name com.technotronic.priceconverter:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5569,11 +5564,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowActionModeOverlay
+          @attr name com.technotronic.priceconverter:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5588,11 +5583,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowFixedHeightMajor
+          @attr name com.technotronic.priceconverter:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5607,11 +5602,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowFixedHeightMinor
+          @attr name com.technotronic.priceconverter:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5626,11 +5621,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowFixedWidthMajor
+          @attr name com.technotronic.priceconverter:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5645,11 +5640,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowFixedWidthMinor
+          @attr name com.technotronic.priceconverter:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5664,11 +5659,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowMinWidthMajor
+          @attr name com.technotronic.priceconverter:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5683,11 +5678,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowMinWidthMinor
+          @attr name com.technotronic.priceconverter:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5697,7 +5692,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:windowNoTitle
+          @attr name com.technotronic.priceconverter:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -5708,29 +5703,29 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.technotronics.priceconverter:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.technotronics.priceconverter:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.technotronics.priceconverter:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.technotronics.priceconverter:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.technotronics.priceconverter:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.technotronics.priceconverter:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.technotronics.priceconverter:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.technotronics.priceconverter:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.technotronics.priceconverter:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.technotronics.priceconverter:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.technotronics.priceconverter:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.technotronics.priceconverter:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.technotronics.priceconverter:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.technotronics.priceconverter:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.technotronics.priceconverter:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.technotronics.priceconverter:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.technotronics.priceconverter:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.technotronics.priceconverter:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.technotronics.priceconverter:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.technotronics.priceconverter:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.technotronics.priceconverter:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.technotronics.priceconverter:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.technotronics.priceconverter:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.technotronic.priceconverter:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.technotronic.priceconverter:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.technotronic.priceconverter:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.technotronic.priceconverter:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.technotronic.priceconverter:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.technotronic.priceconverter:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.technotronic.priceconverter:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.technotronic.priceconverter:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.technotronic.priceconverter:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.technotronic.priceconverter:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.technotronic.priceconverter:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.technotronic.priceconverter:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.technotronic.priceconverter:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.technotronic.priceconverter:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.technotronic.priceconverter:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.technotronic.priceconverter:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.technotronic.priceconverter:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.technotronic.priceconverter:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.technotronic.priceconverter:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.technotronic.priceconverter:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.technotronic.priceconverter:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.technotronic.priceconverter:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.technotronic.priceconverter:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -5780,7 +5775,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5790,21 +5785,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:collapseContentDescription
+          @attr name com.technotronic.priceconverter:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:collapseIcon
+          @attr name com.technotronic.priceconverter:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5816,11 +5811,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetEnd
+          @attr name com.technotronic.priceconverter:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5832,11 +5827,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetLeft
+          @attr name com.technotronic.priceconverter:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5848,11 +5843,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetRight
+          @attr name com.technotronic.priceconverter:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5864,21 +5859,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:contentInsetStart
+          @attr name com.technotronic.priceconverter:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:logo
+          @attr name com.technotronic.priceconverter:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5888,11 +5883,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:logoDescription
+          @attr name com.technotronic.priceconverter:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5904,11 +5899,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:maxButtonHeight
+          @attr name com.technotronic.priceconverter:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5918,31 +5913,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:navigationContentDescription
+          @attr name com.technotronic.priceconverter:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:navigationIcon
+          @attr name com.technotronic.priceconverter:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:popupTheme
+          @attr name com.technotronic.priceconverter:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5952,21 +5947,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:subtitle
+          @attr name com.technotronic.priceconverter:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:subtitleTextAppearance
+          @attr name com.technotronic.priceconverter:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5977,11 +5972,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:subtitleTextColor
+          @attr name com.technotronic.priceconverter:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#title}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5991,11 +5986,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:title
+          @attr name com.technotronic.priceconverter:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6007,11 +6002,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:titleMarginBottom
+          @attr name com.technotronic.priceconverter:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6023,11 +6018,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:titleMarginEnd
+          @attr name com.technotronic.priceconverter:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6039,11 +6034,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:titleMarginStart
+          @attr name com.technotronic.priceconverter:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6055,11 +6050,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:titleMarginTop
+          @attr name com.technotronic.priceconverter:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6071,21 +6066,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:titleMargins
+          @attr name com.technotronic.priceconverter:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:titleTextAppearance
+          @attr name com.technotronic.priceconverter:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6096,7 +6091,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:titleTextColor
+          @attr name com.technotronic.priceconverter:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -6107,9 +6102,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.technotronics.priceconverter:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.technotronics.priceconverter:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.technotronics.priceconverter:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.technotronic.priceconverter:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.technotronic.priceconverter:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.technotronic.priceconverter:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -6134,7 +6129,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6146,11 +6141,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:paddingEnd
+          @attr name com.technotronic.priceconverter:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6162,17 +6157,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:paddingStart
+          @attr name com.technotronic.priceconverter:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.technotronics.priceconverter:theme
+          @attr name com.technotronic.priceconverter:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -6182,8 +6177,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.technotronics.priceconverter:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.technotronics.priceconverter:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.technotronic.priceconverter:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.technotronic.priceconverter:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -6199,7 +6194,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -6210,11 +6205,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.technotronics.priceconverter:backgroundTint
+          @attr name com.technotronic.priceconverter:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.technotronics.priceconverter.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.technotronic.priceconverter.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -6230,7 +6225,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.technotronics.priceconverter:backgroundTintMode
+          @attr name com.technotronic.priceconverter:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
