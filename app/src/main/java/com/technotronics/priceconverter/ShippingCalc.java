@@ -56,25 +56,6 @@ public class ShippingCalc extends AppCompatActivity{
 			//inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),InputMethodManager.HIDE_NOT_ALWAYS);
 			//----KEYBOARD DOWN-------------//
 
-
-			//----PARTS CALCULATION-------------//
-			EditText Weight = (EditText) findViewById(R.id.Weight);
-			 String Wei = Weight.getText().toString();
-			   if(Wei.matches(""))
-			     {
-				   Wei = "0";
-			     }
-			  float W = Float.parseFloat(Wei); 
-			  	W *= 1000;
-			  	W /= 500;
-			
-			Integer Parts = (int) W;
-			 if(W > Parts)
-			 {
-				 Parts++;
-			 }
-			//----PARTS CALCULATION-------------//
-
 			//----REGION SELECTION-------------//
 			RadioGroup Region = (RadioGroup) findViewById(R.id.regionSelect);
 			Region.setOnCheckedChangeListener(new OnCheckedChangeListener() {
@@ -101,6 +82,25 @@ public class ShippingCalc extends AppCompatActivity{
 				}
 			});
 			//----REGION SELECTION-------------//
+
+			//----PARTS CALCULATION-------------//
+			EditText Weight = (EditText) findViewById(R.id.Weight);
+			 String Wei = Weight.getText().toString();
+			   if(Wei.matches(""))
+			     {
+				   Wei = "0";
+			     }
+			  float W = Float.parseFloat(Wei); 
+			  	W *= 1000;
+			  	W /= 500;
+			
+			Integer Parts = (int) W;
+			 if(W > Parts)
+			 {
+				 Parts++;
+			 }
+			//----PARTS CALCULATION-------------//
+
 
 			Float Sum = (float) BaseRate;
 			for(int i = 0 ; i < Parts-1 ; i++)

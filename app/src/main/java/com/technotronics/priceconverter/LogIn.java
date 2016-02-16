@@ -2,7 +2,6 @@ package com.technotronics.priceconverter;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -13,7 +12,7 @@ import android.widget.Toast;
 public class LogIn extends AppCompatActivity{
 
 	@Override
-	protected void onCreate(@Nullable Bundle savedInstanceState) {
+	protected void onCreate( Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.login);
@@ -33,7 +32,7 @@ public class LogIn extends AppCompatActivity{
 			String pass = Password.getText().toString();
 			Intent i = new Intent(getApplicationContext(), MainActivity.class);
 			
-			if(pass.equals("pcguys"))
+			if(pass.equals("Techemp"))
 			{
 				startActivity(i);
 				finish();

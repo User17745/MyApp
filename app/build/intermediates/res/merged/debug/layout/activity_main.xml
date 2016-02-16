@@ -135,4 +135,32 @@
 		android:layout_toLeftOf="@+id/shipping"
 		android:layout_toStartOf="@+id/shipping" />
 
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View Products"
+		android:id="@+id/list2"
+		android:layout_alignTop="@+id/list"
+		android:layout_toRightOf="@+id/list"
+		android:layout_toEndOf="@+id/list" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="On Site:"
+		android:id="@+id/Prod_text1"
+		android:layout_above="@+id/list2"
+		android:layout_alignRight="@+id/vat_text"
+		android:layout_alignEnd="@+id/vat_text" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Seller:"
+		android:id="@+id/Prod_text2"
+		android:layout_alignTop="@+id/Prod_text1"
+		android:layout_toRightOf="@+id/list"
+		android:layout_toEndOf="@+id/list" />
+
 </RelativeLayout>

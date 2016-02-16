@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 	   setContentView(R.layout.activity_main);
 
 	   TextView Shipping = (TextView) findViewById(R.id.shipping_text);
-	   Shipping.setOnClickListener(ShipCalc);
+	   /*Shipping.setOnClickListener(ShipCalc);*/
 
 	   Button Convert = (Button) findViewById(R.id.convert);
 	   Convert.setOnClickListener(Converter);
@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
 	   Button List = (Button) findViewById(R.id.list);
 	   List.setOnClickListener(PDF);
+
+	   Button List2 = (Button) findViewById(R.id.list2);
+	   List2.setOnClickListener(PDF2);
 
 	   EnableShip = (CheckBox) findViewById(R.id.enableShip);
 	   EnableShip.setOnCheckedChangeListener(tick);
@@ -72,14 +75,14 @@ public class MainActivity extends AppCompatActivity {
 	};
 
 
-	private OnClickListener ShipCalc = new OnClickListener()
+	/*private OnClickListener ShipCalc = new OnClickListener()
 	{
 		public void onClick(View v)
 		{
 			Intent i = new Intent(getApplicationContext(), ShippingCalc.class);
 			startActivityForResult(i,1);
 		}
-	};
+	};*/
 	private OnClickListener Converter = new OnClickListener()
 	{
 		public void onClick(View v)
@@ -149,6 +152,14 @@ public class MainActivity extends AppCompatActivity {
 			startActivity(i);
 		}
 		
+	};
+
+	private OnClickListener PDF2 = new OnClickListener() {
+		@Override
+		public void onClick(View v) {
+			Intent i = new Intent(getApplicationContext(), PDFSeller.class);
+			startActivity(i);
+		}
 	};
 	
 	private OnClickListener ImageClick = new OnClickListener()
