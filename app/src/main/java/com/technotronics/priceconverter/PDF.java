@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.support.v4.widget.SwipeRefreshLayout;
 
 @SuppressLint("SetJavaScriptEnabled")
 public class PDF extends AppCompatActivity {
@@ -14,8 +15,7 @@ public class PDF extends AppCompatActivity {
 	  protected void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 
-		  WebView mWebView=new WebView(PDF.this);
-
+		  WebView mWebView = new WebView(PDF.this);
 		  mWebView.getSettings().setJavaScriptEnabled(true);
 
 		  mWebView.setWebViewClient(new WebViewClient());
@@ -26,10 +26,10 @@ public class PDF extends AppCompatActivity {
 
 		  mWebView.setWebViewClient(new WebViewClient() {
 			  @Override
-			  public void onReceivedError(WebView view, int errorCode, String description, String failingUrl)
-			  {
+			  public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
 				  setContentView(R.layout.errorweb);
 			  }
 		  });
+
 	  }
 	}

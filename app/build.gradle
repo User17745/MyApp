@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.technotronic.priceconverter"
+        applicationId "com.technotronics.priceconverter"
         minSdkVersion 11
         targetSdkVersion 21
         versionCode 2
