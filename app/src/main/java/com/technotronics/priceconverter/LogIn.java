@@ -16,7 +16,7 @@ public class LogIn extends AppCompatActivity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.login);
-		
+
 		Button LogIn = (Button) findViewById(R.id.login);
 		
 		LogIn.setOnClickListener(Verify);

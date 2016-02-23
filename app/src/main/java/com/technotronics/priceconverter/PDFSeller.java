@@ -1,7 +1,9 @@
 package com.technotronics.priceconverter;
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -9,19 +11,26 @@ import android.webkit.WebViewClient;
  * Created by HP Lap on 11-Feb-16.
  */
 public class PDFSeller extends AppCompatActivity{
+
+    WebView mWebView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        WebView mWebView=new WebView(PDFSeller.this);
+        setContentView(R.layout.weblist);
 
+        /*WebView mWebView=new WebView(PDFSeller.this);
         mWebView.getSettings().setJavaScriptEnabled(true);
-
         mWebView.setWebViewClient(new WebViewClient());
         //mWebView.getSettings().setPluginsEnabled(true);
-        //mWebView.loadUrl("https://www.luminpdf.com/documents/oZT3fQ66ocrjSBEcz/share?sk=b4fd3eee-6e87-425a-87f3-d0522a06d225");
         mWebView.loadUrl("https://drive.google.com/open?id=0B79FZKj9iMYiRTd4UDl4bzM5Z3c");
-        //mWebView.loadUrl("https://dochub.com/technotronicstore/mkmgpB/pricelist-11-02-16?dt=s82etl68hc1347g9");
-        setContentView(mWebView);
+        setContentView(mWebView);*/
+
+        mWebView = (WebView) findViewById(R.id.mWebView);
+        mWebView.getSettings().setJavaScriptEnabled(true);
+        mWebView.setWebViewClient(new WebViewClient());
+            mWebView.loadUrl("https://drive.google.com/open?id=0B79FZKj9iMYiRTd4UDl4bzM5Z3c");
+
 
         mWebView.setWebViewClient(new WebViewClient() {
             @Override
@@ -29,5 +38,15 @@ public class PDFSeller extends AppCompatActivity{
                 setContentView(R.layout.errorweb);
             }
         });
+
+        FloatingActionButton refBut = (FloatingActionButton) findViewById(R.id.fab);
+         refBut.setOnClickListener(Refresh);
     }
+
+    private View.OnClickListener Refresh = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            mWebView.reload();
+        }
+    };
 }

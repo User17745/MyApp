@@ -96,7 +96,7 @@
 	    android:layout_alignBottom="@+id/convert"
 	    android:layout_alignLeft="@+id/textView1"
 	    android:background="#DDD"
-	    android:textSize="40sp" />
+	    android:textSize="40dp" />
 
 	<TextView
 	    android:id="@+id/margin_Text"
@@ -162,5 +162,15 @@
 		android:layout_alignTop="@+id/Prod_text1"
 		android:layout_toRightOf="@+id/list"
 		android:layout_toEndOf="@+id/list" />
+
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Shipping is included"
+		android:id="@+id/ship_include"
+		android:layout_below="@+id/base"
+		android:layout_alignRight="@+id/shipping"
+		android:layout_alignEnd="@+id/shipping"
+		android:checked="true" />
 
 </RelativeLayout>

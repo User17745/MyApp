@@ -19,20 +19,30 @@ public class MainActivity extends AppCompatActivity {
 
 	//Vibrator vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
-	CheckBox EnableShip;
+	CheckBox EnableShip, ShipInclude;
 
-	//==============All the basic calculation variables===============//
-	EditText Base = (EditText) findViewById(R.id.base);
-	EditText vAT = (EditText) findViewById(R.id.vat);
-	EditText margin = (EditText) findViewById(R.id.margin);
-	EditText shipping = (EditText) findViewById(R.id.shipping);
-	TextView Result = (TextView) findViewById(R.id.result);
-	//==============All the basic calculation variables===============//
+	//All the basic calculation variables//
+	EditText Base;
+	EditText vAT;
+	EditText margin;
+	EditText shipping;
+	TextView Result;
+	//All the basic calculation variables//
 
    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 	   super.onCreate(savedInstanceState);
 	   setContentView(R.layout.activity_main);
+
+	   //==============All the basic calculation variables===============//
+	   Base = (EditText) findViewById(R.id.base);
+	   vAT = (EditText) findViewById(R.id.vat);
+	   margin = (EditText) findViewById(R.id.margin);
+	   shipping = (EditText) findViewById(R.id.shipping);
+	   Result = (TextView) findViewById(R.id.result);
+	   //==============All the basic calculation variables===============//
+
+	   /*Result.setOnClickListener(Mar);*/
 
 	   //=================Other on screen elements like button, images, etc.======================//
 	   TextView Shipping = (TextView) findViewById(R.id.shipping_text);
@@ -46,13 +56,14 @@ public class MainActivity extends AppCompatActivity {
 	   Button List2 = (Button) findViewById(R.id.list2);
 	   		List2.setOnClickListener(PDF2);
 	   EnableShip = (CheckBox) findViewById(R.id.enableShip);
-	   		EnableShip.setOnCheckedChangeListener(tick);
+	   		EnableShip.setOnCheckedChangeListener(ship);
+	   ShipInclude = (CheckBox) findViewById(R.id.ship_include);
 	   //=================Other on screen elements like button, images, etc.======================//
 
    }
 
 	//=============================Shipping Toggle================================//
-	private CompoundButton.OnCheckedChangeListener tick = new CompoundButton.OnCheckedChangeListener() {
+	private CompoundButton.OnCheckedChangeListener ship = new CompoundButton.OnCheckedChangeListener() {
 		@Override
 		public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
@@ -82,10 +93,8 @@ public class MainActivity extends AppCompatActivity {
 	private float numInput(EditText intext)
 	{
 		String S = intext.getText().toString();
-		if(S.matches(""))
-		{
-			S = "0";
-		}
+		 if(S.matches(""))
+			 S = "0";
 		return Float.parseFloat(S);
 	}
 	//====================EditText to Float converter=====================//
@@ -103,12 +112,22 @@ public class MainActivity extends AppCompatActivity {
 			float converted = 0;
 
 			try{
-				converted += numBase;
-				converted += Margin;
-				if(shipping.isEnabled())
-					converted += Shipping;
-				converted += converted*VAT;
-
+				if(ShipInclude.isChecked())
+				{
+					converted += numBase;
+					converted += Margin;
+					if (shipping.isEnabled())
+						converted += Shipping;
+					converted += converted * VAT;
+				}
+				else
+				{
+					converted += numBase;
+					converted += Margin;
+					converted += converted * VAT;
+					if (shipping.isEnabled())
+						converted += Shipping;
+				}
 				Result.setText(Float.toString(converted));
 	}
 
@@ -125,6 +144,20 @@ public class MainActivity extends AppCompatActivity {
 		{
 			Intent i = new Intent(getApplicationContext(), ShippingCalc.class);
 			startActivityForResult(i,1);
+		}
+	};*/
+
+	/*private OnClickListener Mar = new OnClickListener() {
+		@Override
+		public void onClick(View v) {
+			try {
+				Intent i = new Intent(getApplicationContext(), MarginCalc.class);
+				startActivity(i);
+			}
+			catch (Exception e)
+			{
+				Toast.makeText(getApplicationContext(), (CharSequence) e, Toast.LENGTH_SHORT).show();
+			}
 		}
 	};*/
 
@@ -152,8 +185,10 @@ public class MainActivity extends AppCompatActivity {
 		{
 			//vibe.vibrate(100);
 			Toast T = Toast.makeText(getApplicationContext(), "-Powered by Technotronic", Toast.LENGTH_SHORT);
-			T.setGravity(Gravity.BOTTOM|Gravity.END, 0, 0);
+			T.setGravity(Gravity.BOTTOM | Gravity.END, 0, 0);
 			T.show();
+			Intent i = new Intent(getApplicationContext(), ReverseBilling.class);
+			startActivity(i);
 		}
 	};
 	
