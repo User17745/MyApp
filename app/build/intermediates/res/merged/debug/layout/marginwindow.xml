@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Margin"
-        android:id="@+id/textView2"
+        android:id="@+id/prod_text"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:background="#EEE"

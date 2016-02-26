@@ -6,7 +6,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Enter the final bill amount:"
         android:id="@+id/textView"
@@ -18,7 +17,7 @@
     <EditText
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:ems="10"
         android:id="@+id/selling_price"
         android:layout_below="@+id/textView"
@@ -32,175 +31,174 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Product&apos;s Value:"
-        android:layout_marginLeft="10dp"
-        android:id="@+id/textView2"
+        android:id="@+id/prod_text"
+        android:layout_marginTop="104dp"
+        android:layout_marginLeft="15dp"
         android:layout_below="@+id/selling_price"
         android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="50dp" />
+        android:layout_alignStart="@+id/textView" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="1,000"
+        android:textSize="30dp"
+        android:background="#EEE"
         android:id="@+id/prod_value"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView" />
+        android:layout_alignBottom="@+id/prod_text"
+        android:layout_alignRight="@+id/selling_price"
+        android:layout_alignEnd="@+id/selling_price" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Shipping("
-        android:id="@+id/textView3"
+        android:text="Shipping:"
+        android:id="@+id/ship_text"
         android:layout_below="@+id/prod_value"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2"
+        android:layout_alignLeft="@+id/prod_text"
+        android:layout_alignStart="@+id/prod_text"
         android:layout_marginTop="52dp" />
 
-    <CheckBox
+    <!--<CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="is included"
         android:id="@+id/ship_include"
         android:padding="0dp"
         android:layout_margin="0dp"
-        android:layout_alignBaseline="@+id/textView3"
-        android:layout_alignBottom="@+id/textView3"
-        android:layout_toRightOf="@+id/textView3"
-        android:layout_toEndOf="@+id/textView3"
-        android:checked="false" />
+        android:layout_alignBaseline="@+id/ship_text"
+        android:layout_alignBottom="@+id/ship_text"
+        android:layout_toRightOf="@+id/ship_text"
+        android:layout_toEndOf="@+id/ship_text"
+        android:checked="true" />
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="):"
         android:id="@+id/textView4"
-        android:layout_alignBaseline="@+id/ship_include"
-        android:layout_alignBottom="@+id/ship_include"
-        android:layout_toRightOf="@+id/ship_include"
-        android:layout_toEndOf="@+id/ship_include" />
+        android:layout_alignBaseline="@+id/ship_text"
+        android:layout_alignBottom="@+id/ship_text"
+        android:layout_toRightOf="@+id/ship_text"
+        android:layout_toEndOf="@+id/ship_text" />-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textAlignment="center"
+        android:id="@+id/ship_edit"
+        android:layout_alignBottom="@+id/ship_text"
+        android:text="100"
+        android:layout_alignRight="@+id/selling_price"
+        android:layout_alignEnd="@+id/selling_price"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ship_check"
+        android:checked="true"
+        android:layout_alignBottom="@+id/ship_edit"
+        android:layout_toLeftOf="@+id/ship_edit"
+        android:layout_toStartOf="@+id/ship_edit" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="VAT("
-        android:id="@+id/textView5"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3" />
+        android:id="@+id/vat_text"
+        android:layout_below="@+id/ship_text"
+        android:layout_alignLeft="@+id/ship_text"
+        android:layout_alignStart="@+id/ship_text"
+        android:layout_marginTop="47dp" />
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="is included"
-        android:id="@+id/vat_include"
-        android:padding="0dp"
-        android:layout_margin="0dp"
-        android:layout_alignBaseline="@+id/textView5"
-        android:layout_alignBottom="@+id/textView5"
-        android:layout_toRightOf="@+id/textView5"
-        android:layout_toEndOf="@+id/textView5"
-        android:checked="false" />
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/vat_include"
+         android:padding="0dp"
+         android:layout_margin="0dp"
+         android:layout_alignBaseline="@+id/vat_text"
+         android:layout_alignBottom="@+id/vat_text"
+         android:layout_toRightOf="@+id/vat_text"
+         android:layout_toEndOf="@+id/vat_text"
+         android:checked="true" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="%):"
+         android:id="@+id/textView6"
+         android:layout_alignBaseline="@+id/vat_include"
+         android:layout_alignBottom="@+id/vat_include"
+         android:layout_toRightOf="@+id/vat_edit"
+         android:layout_toEndOf="@+id/vat_edit" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="):"
-        android:id="@+id/textView6"
-        android:layout_alignBaseline="@+id/vat_include"
-        android:layout_alignBottom="@+id/vat_include"
-        android:layout_toRightOf="@+id/vat_include"
-        android:layout_toEndOf="@+id/vat_include" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="100"
-        android:id="@+id/ship_charge"
-        android:layout_alignTop="@+id/textView10"
-        android:layout_toRightOf="@+id/textView10"
-        android:layout_toEndOf="@+id/textView10" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="55"
-        android:id="@+id/vat"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_alignLeft="@+id/ship_charge"
-        android:layout_alignStart="@+id/ship_charge" />
+        android:inputType="numberDecimal"
+        android:gravity="bottom"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:id="@+id/vat_value"
+        android:background="#EEE"
+        android:layout_alignEnd="@+id/selling_price"
+        android:layout_alignRight="@+id/selling_price"
+        android:layout_alignBottom="@+id/vat_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Total:"
-        android:id="@+id/textView7"
+        android:textSize="37dp"
+        android:id="@+id/total_text"
         android:layout_below="@+id/vat_include"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_alignStart="@+id/textView5"
-        android:layout_marginTop="30dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="1,155"
-        android:id="@+id/textView8"
-        android:textSize="40dp"
-        android:background="#EEE"
-        android:layout_alignBottom="@+id/textView7"
-        android:layout_alignLeft="@+id/textView9"
-        android:layout_alignStart="@+id/textView9" />
+        android:layout_alignLeft="@+id/vat_text"
+        android:layout_alignStart="@+id/vat_text"
+        android:layout_marginTop="40dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="+Rs."
-        android:id="@+id/textView9"
-        android:layout_centerVertical="true"
-        android:layout_alignBottom="@+id/vat"
-        android:layout_toLeftOf="@+id/vat"
-        android:layout_toStartOf="@+id/vat" />
+        android:id="@+id/total_value"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_alignRight="@+id/selling_price"
+        android:layout_alignEnd="@+id/selling_price"
+        android:layout_alignBottom="@+id/total_text"
+        />
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="+Rs."
-        android:id="@+id/textView10"
-        android:layout_alignTop="@+id/textView4"
-        android:layout_alignLeft="@+id/prod_value"
-        android:layout_alignStart="@+id/prod_value" />
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/vat_edit"
+        android:text="5"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/vat_include"
+        android:layout_toRightOf="@+id/vat_include"
+        android:layout_alignRight="@+id/total_text"
+        android:layout_alignEnd="@+id/total_text" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Rs."
-        android:textSize="35dp"
-        android:id="@+id/textView11"
-        android:layout_alignBottom="@+id/textView8"
-        android:layout_toLeftOf="@+id/textView8"
-        android:layout_toStartOf="@+id/textView8" />
+        android:text="Generate"
+        android:id="@+id/generate"
+        android:layout_below="@+id/selling_price"
+        android:layout_alignLeft="@+id/prod_text"
+        android:layout_alignStart="@+id/prod_text" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Rs."
-        android:id="@+id/textView12"
-        android:layout_above="@+id/textView3"
-        android:layout_alignRight="@+id/textView11"
-        android:layout_alignEnd="@+id/textView11" />
 
 </RelativeLayout>
