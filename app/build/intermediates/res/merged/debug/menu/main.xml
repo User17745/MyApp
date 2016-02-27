@@ -9,9 +9,14 @@
         android:title="@string/action_settings"
         app:showAsAction="never"/>-->
     <item
-        android:id="@+id/action_refresh"
+        android:id="@+id/action_report"
         android:orderInCategory="100"
-        android:title="Refresh"
+        android:title="Send Weekly Report"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="Search"
         android:src="@android:drawable/ic_menu_rotate" />
 
 </menu>

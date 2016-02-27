@@ -48,4 +48,6 @@ public class PDF extends AppCompatActivity {
 			mWebView.reload();
 		}
 	};
+
+
 }

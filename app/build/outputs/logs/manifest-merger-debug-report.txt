@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:2:1-84:12
+ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:2:1-93:12
 	package
 		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
@@ -33,7 +33,7 @@ MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjec
 		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:12:5-81:19
+ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:12:5-90:19
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
@@ -107,7 +107,13 @@ ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidMan
 		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:73:13-45
 	android:name
 		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:72:13-39
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:83:5-67
+activity#com.technotronics.priceconverter.WeeklyReport
+ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:80:9-88:20
+	android:label
+		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:82:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:83:22-64
+		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:81:13-41
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:92:5-67
+	android:name
+		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:92:22-64

@@ -569,7 +569,8 @@ int id action_menu_presenter 0x7f0b0003
 int id action_mode_bar 0x7f0b0055
 int id action_mode_bar_stub 0x7f0b0054
 int id action_mode_close_button 0x7f0b003a
-int id action_refresh 0x7f0b00a9
+int id action_report 0x7f0b00a9
+int id action_search 0x7f0b00aa
 int id activity_chooser_view_content 0x7f0b003b
 int id alertTitle 0x7f0b0047
 int id always 0x7f0b0030
@@ -780,6 +781,7 @@ int layout select_dialog_singlechoice_material 0x7f030031
 int layout shipping 0x7f030032
 int layout support_simple_spinner_dropdown_item 0x7f030033
 int layout weblist 0x7f030034
+int layout weekly_report 0x7f030035
 int menu main 0x7f0c0000
 int string abc_action_bar_home_description 0x7f050000
 int string abc_action_bar_home_description_format 0x7f050001
