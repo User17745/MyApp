@@ -1,7 +1,10 @@
 package com.technotronics.priceconverter;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.Menu;
@@ -16,11 +19,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Calendar;
+
 
 public class MainActivity extends AppCompatActivity {
 
-	//Vibrator vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-
+	Vibrator Vibe;
 	CheckBox EnableShip, ShipInclude;
 
 	//All the basic calculation variables//
@@ -35,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 	   super.onCreate(savedInstanceState);
 	   setContentView(R.layout.activity_main);
+
+	   Vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
 	   //==============All the basic calculation variables===============//
 	   Base = (EditText) findViewById(R.id.base);
@@ -53,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 	   		Convert.setOnClickListener(Converter);
 	   ImageView rA = (ImageView) findViewById(R.id.rAView);
 	   		rA.setOnClickListener(ImageClick);
+	   		rA.setOnLongClickListener(ImageClickLong);
 	   Button List = (Button) findViewById(R.id.list);
 	   		List.setOnClickListener(PDF);
 	   Button List2 = (Button) findViewById(R.id.list2);
@@ -185,15 +192,31 @@ public class MainActivity extends AppCompatActivity {
 	{
 		public void onClick(View v)
 		{
-			//vibe.vibrate(100);
 			Toast T = Toast.makeText(getApplicationContext(), "-Powered by Technotronic", Toast.LENGTH_SHORT);
 			T.setGravity(Gravity.BOTTOM | Gravity.END, 0, 0);
 			T.show();
-			Intent i = new Intent(getApplicationContext(), ReverseBilling.class);
-			startActivity(i);
 		}
 	};
-	
+
+	private View.OnLongClickListener ImageClickLong = new View.OnLongClickListener() {
+		@Override
+		public boolean onLongClick(View v) {
+			launchApp(getApplicationContext(), "com.sauravarya.toc");
+			Vibe.vibrate(100);
+			return false;
+		}
+	};
+
+	public void launchApp(Context context, String appPackageName) {
+		Intent i = context.getPackageManager().getLaunchIntentForPackage(appPackageName);
+		if (i == null) {
+			// Bring user to the market or let them choose an app?
+			i = new Intent(Intent.ACTION_VIEW);
+			i.setData(Uri.parse("market://details?id=" + appPackageName));
+		}
+		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		context.startActivity(i);
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -208,9 +231,29 @@ public class MainActivity extends AppCompatActivity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
+		if (id == R.id.action_reverseBilling) {
+			Intent i = new Intent(getApplicationContext(), ReverseBilling.class);
+			startActivity(i);
+			}
+
 		if (id == R.id.action_report) {
 			Intent i = new Intent(getApplicationContext(), WeeklyReport.class);
-			startActivity(i);
+			Calendar calendar = Calendar.getInstance();
+
+			int Day = calendar.get(Calendar.DAY_OF_WEEK); // If current day is Sunday, day=1. Saturday, day=7.
+
+			switch (Day) {
+				case 1:
+					startActivity(i);
+					break;
+				case 7:
+					startActivity(i);
+					break;
+				default:
+					Toast T = Toast.makeText(getApplicationContext(),"Weekly Reports can only be sent on Saturdays",Toast.LENGTH_SHORT);
+					T.setGravity(Gravity.TOP, 0, 160);
+					T.show();
+			}
 		}
 		return super.onOptionsItemSelected(item);
 	}

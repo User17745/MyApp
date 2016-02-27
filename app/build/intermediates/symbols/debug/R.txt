@@ -569,8 +569,8 @@ int id action_menu_presenter 0x7f0b0003
 int id action_mode_bar 0x7f0b0055
 int id action_mode_bar_stub 0x7f0b0054
 int id action_mode_close_button 0x7f0b003a
-int id action_report 0x7f0b00a9
-int id action_search 0x7f0b00aa
+int id action_report 0x7f0b00aa
+int id action_reverseBilling 0x7f0b00a9
 int id activity_chooser_view_content 0x7f0b003b
 int id alertTitle 0x7f0b0047
 int id always 0x7f0b0030
