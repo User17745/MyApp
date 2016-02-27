@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -16,27 +16,35 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    
-  
-  
-  <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-    <item name="android:background"  tools:ignore="NewApi">#66c0cf</item>
-    <item name="background">@color/blue</item>
-    <item name="colorPrimary">#93D2DD</item> 
-	<item name="colorPrimaryDark">#84BDC6</item>
-</style>
 
-<style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light">
-    <item name="android:actionBarStyle"   tools:ignore="NewApi">@style/MyActionBar</item>
-    <item name="actionBarStyle">@style/MyActionBar</item>
 
-</style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background" tools:ignore="NewApi">#66c0cf</item>
+        <item name="background">@color/blue</item>
+        <item name="colorPrimary">#93D2DD</item>
+        <item name="colorPrimaryDark">#84BDC6</item>
+    </style>
 
-<style name="Theme.MyTheme" parent="CustomActionBarTheme">   
-    <!-- Set AppCompat’s color theming attrs -->
-    <item name="colorPrimary">#93D2DD</item>
-    <item name="colorPrimaryDark">#84BDC6</item>
-    <!-- Other attributes -->
-</style>
-    
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+    <style name="Theme.MyTheme" parent="CustomActionBarTheme">
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">#93D2DD</item>
+        <item name="colorPrimaryDark">#84BDC6</item>
+        <!-- Other attributes -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
