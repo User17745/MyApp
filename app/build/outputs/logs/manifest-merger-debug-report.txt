@@ -1,123 +1,151 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:2:1-94:12
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:2:1-94:12
 	package
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.0.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\novat\.android\build-cache\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\novat\.android\build-cache\458901016ecddff6f61150003f7ae04c05899c75\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\novat\.android\build-cache\ec8370d015a2c68a09e8554b3e8916e4c431d4dc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\novat\.android\build-cache\9e2df34f8141b437d381ab5805a5653f2510bec4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\novat\.android\build-cache\d013f1417171e4d809c7edcfc75d86f1220fdcad\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\novat\.android\build-cache\c541304e777b30879062cf58f17a4c0825f4a2e4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\novat\.android\build-cache\2dd479eac76553d5d1e6576a40be4ddcb558d90e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\novat\.android\build-cache\41f21e0fe9cc5c7c581463e0aaee7f87ac1a959b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\novat\.android\build-cache\3f3bdccbdff1d25b3a673f0c854d2aa804e80557\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\novat\.android\build-cache\345d42fdec45c4a4eef4930a4d4e29b4a2bab0cc\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\novat\.android\build-cache\9c76fa0820f05144f68d0ec045b13c5e4be6ef7d\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\novat\.android\build-cache\a8516663299c56ca1bc35fb12df63f445304a6f1\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\novat\.android\build-cache\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:11:5-82
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:11:5-82
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:11:22-63
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:11:22-63
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:12:22-64
 application
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:14:5-92:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.0.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\HP Lap\StudioProjects\PriceConverter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:14:5-92:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\novat\.android\build-cache\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\novat\.android\build-cache\458901016ecddff6f61150003f7ae04c05899c75\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\novat\.android\build-cache\ec8370d015a2c68a09e8554b3e8916e4c431d4dc\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\novat\.android\build-cache\9e2df34f8141b437d381ab5805a5653f2510bec4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\novat\.android\build-cache\c541304e777b30879062cf58f17a4c0825f4a2e4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\novat\.android\build-cache\2dd479eac76553d5d1e6576a40be4ddcb558d90e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\novat\.android\build-cache\41f21e0fe9cc5c7c581463e0aaee7f87ac1a959b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\novat\.android\build-cache\3f3bdccbdff1d25b3a673f0c854d2aa804e80557\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\novat\.android\build-cache\345d42fdec45c4a4eef4930a4d4e29b4a2bab0cc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\novat\.android\build-cache\9c76fa0820f05144f68d0ec045b13c5e4be6ef7d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\novat\.android\build-cache\a8516663299c56ca1bc35fb12df63f445304a6f1\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:17:9-41
 	android:allowBackup
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:16:9-36
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:16:9-36
 	android:theme
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:18:9-40
 activity#com.technotronics.priceconverter.MainActivity
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:19:9-27:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:21:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:25:17-75
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:25:17-75
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:25:27-73
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:25:27-73
 activity#com.technotronics.priceconverter.LogIn
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:28:9-36:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:30:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:29:13-34
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:29:13-34
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:31:13-35:29
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:34:27-74
 activity#com.technotronics.priceconverter.PDF
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:37:9-45:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:37:9-45:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:39:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:39:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:38:13-32
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:38:13-32
 activity#com.technotronics.priceconverter.ShippingCalc
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:46:9-54:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:46:9-54:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:48:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:48:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:47:13-41
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:47:13-41
 activity#com.technotronics.priceconverter.PDFSeller
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:55:9-63:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:55:9-63:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:57:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:57:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:56:13-38
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:56:13-38
 activity#com.technotronics.priceconverter.ReverseBilling
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:64:9-72:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:64:9-72:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:66:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:66:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:65:13-43
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:65:13-43
 activity#com.technotronics.priceconverter.MarginCalc
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:73:9-81:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:73:9-81:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:75:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:75:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:74:13-39
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:74:13-39
 activity#com.technotronics.priceconverter.WeeklyReport
-ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:82:9-90:20
+ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:82:9-90:20
 	android:label
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:84:13-45
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:84:13-45
 	android:name
-		ADDED from C:\Users\HP Lap\StudioProjects\PriceConverter\app\src\main\AndroidManifest.xml:83:13-41
+		ADDED from E:\Android\Projects\MyApp\app\src\main\AndroidManifest.xml:83:13-41
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\novat\.android\build-cache\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\novat\.android\build-cache\458901016ecddff6f61150003f7ae04c05899c75\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\novat\.android\build-cache\ec8370d015a2c68a09e8554b3e8916e4c431d4dc\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\novat\.android\build-cache\9e2df34f8141b437d381ab5805a5653f2510bec4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\novat\.android\build-cache\d013f1417171e4d809c7edcfc75d86f1220fdcad\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\novat\.android\build-cache\c541304e777b30879062cf58f17a4c0825f4a2e4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\novat\.android\build-cache\2dd479eac76553d5d1e6576a40be4ddcb558d90e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\novat\.android\build-cache\41f21e0fe9cc5c7c581463e0aaee7f87ac1a959b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\novat\.android\build-cache\3f3bdccbdff1d25b3a673f0c854d2aa804e80557\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\novat\.android\build-cache\345d42fdec45c4a4eef4930a4d4e29b4a2bab0cc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\novat\.android\build-cache\9c76fa0820f05144f68d0ec045b13c5e4be6ef7d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\novat\.android\build-cache\a8516663299c56ca1bc35fb12df63f445304a6f1\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\novat\.android\build-cache\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\novat\.android\build-cache\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\output\AndroidManifest.xml:26:9-47

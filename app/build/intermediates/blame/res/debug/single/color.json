@@ -1,15 +1,91 @@
 [
     {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\\output\\res\\color\\design_error.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
@@ -20,24 +96,44 @@
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",

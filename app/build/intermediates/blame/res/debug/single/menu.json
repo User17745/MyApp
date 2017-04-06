@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Android\\Projects\\MyApp\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

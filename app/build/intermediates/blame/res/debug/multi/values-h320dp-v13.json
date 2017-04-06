@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-v13\\values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\novat\\.android\\build-cache\\f56818921472867b3b7eb2dac92ae8a489b0b6b1\\output\\res\\values-h320dp-v13\\values-h320dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\values-h320dp-v13\\values-h320dp-v13.xml",
         "map": [
             {
@@ -18,6 +42,30 @@
                         "startOffset": 231,
                         "endColumn": 57,
                         "endOffset": 284
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\values-h320dp-v13\\values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-h320dp-v13\\values-h320dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
                     }
                 }
             }

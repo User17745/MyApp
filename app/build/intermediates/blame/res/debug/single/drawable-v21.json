@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_slideshow.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
     },
@@ -8,16 +12,40 @@
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_send.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\src\\main\\res\\drawable-v21\\ic_menu_send.xml"
     },
     {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_share.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\d2eaa32aa82a8d54cab7324dd11e651fc0c1cfa7\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_gallery.xml",
@@ -26,6 +54,10 @@
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_camera.xml",
         "source": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "E:\\Android\\Projects\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\novat\\.android\\build-cache\\458901016ecddff6f61150003f7ae04c05899c75\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\HP Lap\\StudioProjects\\PriceConverter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_manage.xml",
